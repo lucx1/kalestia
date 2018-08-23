@@ -37,6 +37,12 @@ kalestiavoc[10][0] = "atis";
 kalestiavoc[11] = new Array();
 kalestiavoc[11][0] = "as";
 
+kalestiavoc[12] = new Array();
+kalestiavoc[12][0] = "biesas";
+
+kalestiavoc[13] = new Array();
+kalestiavoc[13][0] = "biles";
+
 // -----    ENGLISH WORDS     -----
 var englishvoc = new Array();
 
@@ -139,13 +145,34 @@ englishvoc[31][0] = "symbolize";
 englishvoc[32] = new Array();
 englishvoc[32][0] = "be";
 
+englishvoc[33] = new Array();
+englishvoc[33][0] = "walk";
+
+englishvoc[34] = new Array();
+englishvoc[34][0] = "hike";
+
+englishvoc[35] = new Array();
+englishvoc[35][0] = "go";
+
+englishvoc[36] = new Array();
+englishvoc[36][0] = "may";
+
+englishvoc[37] = new Array();
+englishvoc[37][0] = "be allowed";
+
+englishvoc[38] = new Array();
+englishvoc[38][0] = "be permitted";
+
+englishvoc[39] = new Array();
+englishvoc[39][0] = "can";
+
 // -----KALESTIA TRANSLATIONS -----
 
 kalestiavoc[0][1] = new Array(); //enim
-kalestiavoc[0][1][0] = 0;
-kalestiavoc[0][1][1] = 1;
-kalestiavoc[0][1][2] = 2;
-kalestiavoc[0][1][3] = 3;
+kalestiavoc[0][1][0] = 2;
+kalestiavoc[0][1][1] = 3;
+kalestiavoc[0][1][2] = 1;
+kalestiavoc[0][1][3] = 0;
 kalestiavoc[0][2] = 2;
 
 kalestiavoc[1][1] = new Array(); //a
@@ -154,9 +181,9 @@ kalestiavoc[1][1][1] = 5;
 kalestiavoc[1][2] = 3;
 
 kalestiavoc[2][1] = new Array(); //afenas
-kalestiavoc[2][1][0] = 6;
-kalestiavoc[2][1][1] = 7;
-kalestiavoc[2][1][2] = 8;
+kalestiavoc[2][1][0] = 7;
+kalestiavoc[2][1][1] = 8;
+kalestiavoc[2][1][2] = 6;
 kalestiavoc[2][2] = 1;
 
 kalestiavoc[3][1] = new Array(); //alis
@@ -172,44 +199,58 @@ kalestiavoc[5][1][0] = 11;
 kalestiavoc[5][2] = 1;
 
 kalestiavoc[6][1] = new Array(); //anminis
-kalestiavoc[6][1][0] = 12;
-kalestiavoc[6][1][1] = 13;
+kalestiavoc[6][1][0] = 13;
+kalestiavoc[6][1][1] = 12;
 kalestiavoc[6][2] = 1;
 
 kalestiavoc[7][1] = new Array(); //anuis
-kalestiavoc[7][1][0] = 14;
-kalestiavoc[7][1][1] = 15;
-kalestiavoc[7][1][2] = 16;
+kalestiavoc[7][1][0] = 7;
+kalestiavoc[7][1][1] = 16;
+kalestiavoc[7][1][2] = 15;
+kalestiavoc[7][1][3] = 14;
 kalestiavoc[7][2] = 1;
 
 kalestiavoc[8][1] = new Array(); //aplikatsion
-kalestiavoc[8][1][0] = 17;
+kalestiavoc[8][1][0] = 19;
 kalestiavoc[8][1][1] = 18;
-kalestiavoc[8][1][2] = 19;
+kalestiavoc[8][1][2] = 17;
 kalestiavoc[8][2] = 0;
 
 kalestiavoc[9][1] = new Array(); //asomas
-kalestiavoc[9][1][0] = 20;
-kalestiavoc[9][1][1] = 21;
+kalestiavoc[9][1][0] = 7;
+kalestiavoc[9][1][1] = 23;
 kalestiavoc[9][1][2] = 22;
-kalestiavoc[9][1][3] = 23;
-kalestiavoc[9][1][3] = 7;
+kalestiavoc[9][1][3] = 21;
+kalestiavoc[9][1][3] = 20;
 kalestiavoc[9][2] = 1;
 
 kalestiavoc[10][1] = new Array(); //atis
-kalestiavoc[10][1][0] = 24;
-kalestiavoc[10][1][1] = 25;
-kalestiavoc[10][1][3] = 26;
-kalestiavoc[10][1][4] = 27;
+kalestiavoc[10][1][0] = 27;
+kalestiavoc[10][1][1] = 26;
+kalestiavoc[10][1][2] = 31;
+kalestiavoc[10][1][3] = 30;
+kalestiavoc[10][1][4] = 29;
 kalestiavoc[10][1][5] = 28;
-kalestiavoc[10][1][6] = 29;
-kalestiavoc[10][1][7] = 30;
-kalestiavoc[10][1][8] = 31;
+kalestiavoc[10][1][6] = 25;
+kalestiavoc[10][1][7] = 24;
 kalestiavoc[10][2] = 1;
 
 kalestiavoc[11][1] = new Array(); //as
 kalestiavoc[11][1][0] = 32;
 kalestiavoc[11][2] = 1;
+
+kalestiavoc[12][1] = new Array(); //biesas
+kalestiavoc[12][1][0] = 35;
+kalestiavoc[12][1][1] = 34;
+kalestiavoc[12][1][2] = 33;
+kalestiavoc[12][2] = 1;
+
+kalestiavoc[13][1] = new Array(); //biles
+kalestiavoc[13][1][0] = 39;
+kalestiavoc[13][1][1] = 38;
+kalestiavoc[13][1][2] = 37;
+kalestiavoc[13][1][3] = 36;
+kalestiavoc[13][2] = 1;
 
 // ----- ENGLISH TRANSLATIONS -----
 englishvoc[0][1] = new Array(); //beautiful
@@ -230,117 +271,146 @@ englishvoc[3][2] = 2;
 
 englishvoc[4][1] = new Array(); //I
 englishvoc[4][1][0] = 1;
-englishvoc[4][2] = 2;
+englishvoc[4][2] = 3;
 
 englishvoc[5][1] = new Array(); //me
 englishvoc[5][1][0] = 1;
-englishvoc[5][2] = 2;
+englishvoc[5][2] = 3;
 
 englishvoc[6][1] = new Array(); //become
 englishvoc[6][1][0] = 2;
-englishvoc[6][2] = 2;
+englishvoc[6][2] = 1;
 
 englishvoc[7][1] = new Array(); //get
-englishvoc[7][1][0] = 2;
-englishvoc[7][1][1] = 9;
-englishvoc[7][2] = 2;
+englishvoc[7][1][0] = 9;
+englishvoc[7][1][1] = 7;
+englishvoc[7][1][2] = 2;
+englishvoc[7][2] = 1;
 
 englishvoc[8][1] = new Array(); //turn into
 englishvoc[8][1][0] = 2;
-englishvoc[8][2] = 2;
+englishvoc[8][2] = 1;
 
 englishvoc[9][1] = new Array(); //should
 englishvoc[9][1][0] = 3;
-englishvoc[9][2] = 2;
+englishvoc[9][2] = 1;
 
 englishvoc[10][1] = new Array(); //eight
 englishvoc[10][1][0] = 4;
-englishvoc[10][2] = 2;
+englishvoc[10][2] = 4;
 
 englishvoc[11][1] = new Array(); //die of thirst
 englishvoc[11][1][0] = 5;
-englishvoc[11][2] = 2;
+englishvoc[11][2] = 1;
 
 englishvoc[12][1] = new Array(); //starve
 englishvoc[12][1][0] = 6;
-englishvoc[12][2] = 2;
+englishvoc[12][2] = 1;
 
 englishvoc[13][1] = new Array(); //die of starvation
 englishvoc[13][1][0] = 6;
-englishvoc[13][2] = 2;
+englishvoc[13][2] = 1;
 
 englishvoc[14][1] = new Array(); //come
 englishvoc[14][1][0] = 7;
-englishvoc[14][2] = 2;
+englishvoc[14][2] = 1;
 
 englishvoc[15][1] = new Array(); //visit
 englishvoc[15][1][0] = 7;
-englishvoc[15][2] = 2;
+englishvoc[15][2] = 1;
 
 englishvoc[16][1] = new Array(); //attend
 englishvoc[16][1][0] = 7;
-englishvoc[16][2] = 2;
+englishvoc[16][2] = 1;
 
 englishvoc[17][1] = new Array(); //app
 englishvoc[17][1][0] = 8;
-englishvoc[17][2] = 2;
+englishvoc[17][2] = 0;
 
 englishvoc[18][1] = new Array(); //application
 englishvoc[18][1][0] = 8;
-englishvoc[18][2] = 2;
+englishvoc[18][2] = 0;
 
 englishvoc[19][1] = new Array(); //program
 englishvoc[19][1][0] = 8;
-englishvoc[19][2] = 2;
+englishvoc[19][2] = 0;
 
 englishvoc[20][1] = new Array(); //take
 englishvoc[20][1][0] = 9;
-englishvoc[20][2] = 2;
+englishvoc[20][2] = 1;
 
 englishvoc[21][1] = new Array(); //pick up
 englishvoc[21][1][0] = 9;
-englishvoc[21][2] = 2;
+englishvoc[21][2] = 1;
 
 englishvoc[22][1] = new Array(); //take along
 englishvoc[22][1][0] = 9;
-englishvoc[22][2] = 2;
+englishvoc[22][2] = 1;
 
 englishvoc[23][1] = new Array(); //take with one
 englishvoc[23][1][0] = 9;
-englishvoc[23][2] = 2;
+englishvoc[23][2] = 1;
 
 englishvoc[24][1] = new Array(); //mean
 englishvoc[24][1][0] = 10;
-englishvoc[24][2] = 2;
+englishvoc[24][2] = 1;
 
 englishvoc[25][1] = new Array(); //signify
 englishvoc[25][1][0] = 10;
-englishvoc[25][2] = 2;
+englishvoc[25][2] = 1;
 
 englishvoc[26][1] = new Array(); //imply
 englishvoc[26][1][0] = 10;
-englishvoc[26][2] = 2;
+englishvoc[26][2] = 1;
 
 englishvoc[27][1] = new Array(); //denote
 englishvoc[27][1][0] = 10;
-englishvoc[27][2] = 2;
+englishvoc[27][2] = 1;
 
 englishvoc[28][1] = new Array(); //indicate
 englishvoc[28][1][0] = 10;
-englishvoc[28][2] = 2;
+englishvoc[28][2] = 1;
 
 englishvoc[29][1] = new Array(); //say
 englishvoc[29][1][0] = 10;
-englishvoc[29][2] = 2;
+englishvoc[29][2] = 1;
 
 englishvoc[30][1] = new Array(); //stand for
 englishvoc[30][1][0] = 10;
-englishvoc[30][2] = 2;
+englishvoc[30][2] = 1;
 
 englishvoc[31][1] = new Array(); //symbolize
-englishvoc[31][1][0] = 11;
-englishvoc[31][2] = 2;
+englishvoc[31][1][0] = 10;
+englishvoc[31][2] = 1;
 
 englishvoc[32][1] = new Array(); //be
 englishvoc[32][1][0] = 11;
-englishvoc[32][2] = 2;
+englishvoc[32][2] = 1;
+
+englishvoc[33][1] = new Array(); //walk
+englishvoc[33][1][0] = 12;
+englishvoc[33][2] = 1;
+
+englishvoc[34][1] = new Array(); //hike
+englishvoc[34][1][0] = 12;
+englishvoc[34][2] = 1;
+
+englishvoc[35][1] = new Array(); //go
+englishvoc[35][1][0] = 12;
+englishvoc[35][2] = 1;
+
+englishvoc[36][1] = new Array(); //may
+englishvoc[36][1][0] = 13;
+englishvoc[36][2] = 1;
+
+englishvoc[37][1] = new Array(); //be allowed
+englishvoc[37][1][0] = 13;
+englishvoc[37][2] = 1;
+
+englishvoc[38][1] = new Array(); //be permitted
+englishvoc[38][1][0] = 13;
+englishvoc[38][2] = 1;
+
+englishvoc[39][1] = new Array(); //can
+englishvoc[39][1][0] = 13;
+englishvoc[39][2] = 1;
