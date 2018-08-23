@@ -44,7 +44,7 @@ function starttrans() {
 				var translations = englishvoc[submitnum][1].length - 1;
 				var resultdivvar = "";
 				do {
-					var wnum = kalestiavoc[translations][2];
+					var wnum = kalestiavoc[englishvoc[submitnum][1][translations]][2];
 					if (wordtypes[wnum] == false) {
 						if (wnum == 0) {
 							wordtype = "Noun"
@@ -66,17 +66,17 @@ function starttrans() {
 						resultdivvar = resultdivvar + "<h1>" + wordtype + "</h1>";
 						wordtypes[wnum] = true;
 					}
-					var revtransnum = kalestiavoc[translations][1].length - 1;
+					var revtransnum = kalestiavoc[englishvoc[submitnum][1][translations]][1].length - 1;
 					var revtrans = "loremipsum";
 					do {
 						if (revtrans == "loremipsum") {
-							revtrans = englishvoc[revtransnum][0];
+							revtrans = englishvoc[kalestiavoc[englishvoc[submitnum][1][translations]][1][revtransnum]][0];
 						} else {
-							revtrans = revtrans + ", " + englishvoc[revtransnum][0];
+							revtrans = revtrans + ", " + englishvoc[kalestiavoc[englishvoc[submitnum][1][translations]][1][revtransnum]][0];
 						}
 						revtransnum--;
 					} while (revtransnum > -1);
-					resultdivvar = resultdivvar + "<p>" + kalestiavoc[translations][0] + " - " + revtrans + "</p>";
+					resultdivvar = resultdivvar + "<p>" + kalestiavoc[englishvoc[submitnum][1][translations]][0] + " - " + revtrans + "</p>";
 					translations--;
 				} while (translations > -1);
 				document.getElementById("resultdiv").innerHTML = resultdivvar
@@ -98,7 +98,7 @@ function starttrans() {
 				var translations = kalestiavoc[submitnum][1].length - 1;
 				var resultdivvar = "";
 				do {
-					var wnum = englishvoc[translations][2];
+					var wnum = englishvoc[kalestiavoc[submitnum][1][translations]][2];
 					if (wordtypes[wnum] == false) {
 						if (wnum == 0) {
 							wordtype = "Noun"
@@ -120,17 +120,17 @@ function starttrans() {
 						resultdivvar = resultdivvar + "<h1>" + wordtype + "</h1>";
 						wordtypes[wnum] = true;
 					}
-					var revtransnum = englishvoc[translations][1].length - 1;
+					var revtransnum = englishvoc[kalestiavoc[submitnum][1][translations]][1].length - 1;
 					var revtrans = "loremipsum";
 					do {
 						if (revtrans == "loremipsum") {
-							revtrans = kalestiavoc[revtransnum][0];
+							revtrans = kalestiavoc[englishvoc[kalestiavoc[submitnum][1][translations]][1][revtransnum]][0];
 						} else {
-							revtrans = revtrans + ", " + kalestiavoc[revtransnum][0];
+							revtrans = revtrans + ", " + kalestiavoc[englishvoc[kalestiavoc[submitnum][1][translations]][1][revtransnum]][0];
 						}
 						revtransnum--;
 					} while (revtransnum > -1);
-					resultdivvar = resultdivvar + "<p>" + englishvoc[translations][0] + " - " + revtrans + "</p>";
+					resultdivvar = resultdivvar + "<p>" + englishvoc[kalestiavoc[submitnum][1][translations]][0] + " - " + revtrans + "</p>";
 					translations--;
 				} while (translations > -1);
 				document.getElementById("resultdiv").innerHTML = resultdivvar
