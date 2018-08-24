@@ -23,12 +23,11 @@ function switchdir() {
 		document.getElementById("transdirh").innerHTML = "Translate from Kalestia to English."
 		transdir = 0;
 	}
+	starttrans();
 }
 
-document.addEventListener("keydown", function(event) {
-    if (event.keyCode==13) {
-		starttrans();
-	}
+document.addEventListener("keyup", function(event) {
+	starttrans();
 });
 
 // -----      TRANSLATOR      -----
@@ -68,15 +67,19 @@ function starttrans() {
 					}
 					var revtransnum = kalestiavoc[englishvoc[submitnum][1][translations]][1].length - 1;
 					var revtrans = "loremipsum";
+					var retransvar = "";
+					var revtransvar = "";
 					do {
+						retransvar = englishvoc[kalestiavoc[englishvoc[submitnum][1][translations]][1][revtransnum]][0];
 						if (revtrans == "loremipsum") {
-							revtrans = englishvoc[kalestiavoc[englishvoc[submitnum][1][translations]][1][revtransnum]][0];
+							revtrans = "<a onClick='retransfun(\"" + retransvar + "\")'>" + retransvar + "</a>";
 						} else {
-							revtrans = revtrans + ", " + englishvoc[kalestiavoc[englishvoc[submitnum][1][translations]][1][revtransnum]][0];
+							revtrans = revtrans + ", " + "<a onClick='retransfun(\"" + retransvar + "\")'>" + retransvar + "</a>";
 						}
 						revtransnum--;
 					} while (revtransnum > -1);
-					resultdivvar = resultdivvar + "<p>" + kalestiavoc[englishvoc[submitnum][1][translations]][0] + " - " + revtrans + "</p>";
+					revtransvar = kalestiavoc[englishvoc[submitnum][1][translations]][0];
+					resultdivvar = resultdivvar + "<p><a onClick='revtransfun(\"" + revtransvar + "\")'>" + revtransvar + "</a>" + " - " + revtrans + "</p>";
 					translations--;
 				} while (translations > -1);
 				document.getElementById("resultdiv").innerHTML = resultdivvar
@@ -122,15 +125,19 @@ function starttrans() {
 					}
 					var revtransnum = englishvoc[kalestiavoc[submitnum][1][translations]][1].length - 1;
 					var revtrans = "loremipsum";
+					var retransvar = "";
+					var revtransvar = "";
 					do {
+						retransvar = kalestiavoc[englishvoc[kalestiavoc[submitnum][1][translations]][1][revtransnum]][0];
 						if (revtrans == "loremipsum") {
-							revtrans = kalestiavoc[englishvoc[kalestiavoc[submitnum][1][translations]][1][revtransnum]][0];
+							revtrans = "<a onClick='retransfun(\"" + retransvar + "\")'>" + retransvar + "</a>";
 						} else {
-							revtrans = revtrans + ", " + kalestiavoc[englishvoc[kalestiavoc[submitnum][1][translations]][1][revtransnum]][0];
+							revtrans = revtrans + ", " + "<a onClick='retransfun(\"" + retransvar + "\")'>" + retransvar + "</a>";
 						}
 						revtransnum--;
 					} while (revtransnum > -1);
-					resultdivvar = resultdivvar + "<p>" + englishvoc[kalestiavoc[submitnum][1][translations]][0] + " - " + revtrans + "</p>";
+					revtransvar = englishvoc[kalestiavoc[submitnum][1][translations]][0];
+					resultdivvar = resultdivvar + "<p><a onClick='revtransfun(\"" + revtransvar + "\")'>" + revtransvar + "</a>" + " - " + revtrans + "</p>";
 					translations--;
 				} while (translations > -1);
 				document.getElementById("resultdiv").innerHTML = resultdivvar
@@ -141,4 +148,12 @@ function starttrans() {
 			}
 		} while (i > -1);
 	}
+}
+function retransfun(revsubmit) {
+	document.getElementById("wordinput").value = revsubmit;
+	starttrans();
+}
+function revtransfun(revsubmit) {
+	document.getElementById("wordinput").value = revsubmit;
+	switchdir();
 }
