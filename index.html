@@ -1,19 +1,172 @@
+
+<!DOCTYPE HTML>
 <html>
 	<head>
-		<meta charset="UTF-8">
-		<title>Kalestia Translator</title>
+		<title>Kalestia - A non-conventional language</title>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 	</head>
 	<body>
-		<div id="inputdiv">
-			<p><text id="transdirh"></text> <input type="button" value="Switch" onClick="switchdir()"></p>
-			<p>
-				<input type="text" id="wordinput">
-				<input type="button" value="Translate" onClick="starttrans()">
-			</p>
-		</div>
-		<div id="resultdiv">
-		</div>
-		<script src="js/vocabulary.js"></script>
-		<script src="js/translator.js"></script>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header" class="alt">
+						<span class="logo"><img src="images/logo.svg" alt="" /></span>
+						<h1>Kalestia</h1>
+						<p>A new, non-conventional and free-form language made with ❤️.</p>
+						<ul class="actions">
+							<li><a href="translator.html" class="button">Translator</a></li>
+							<li><a onClick="unfinished()" class="button special">Get Started</a></li>
+						</ul>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul>
+							<li><a href="#intro" class="active">Introduction</a></li>
+							<li><a href="#why-Kalestia">Why Kalestia?</a></li>
+							<li><a href="#community">Community</a></li>
+							<li><a href="#learning">Get Started</a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Introduction -->
+							<section id="intro" class="main">
+								<div class="spotlight">
+									<div class="content">
+										<header class="major">
+											<h2>What is Kalestia?</h2>
+										</header>
+										<p>Kalestia is a free-form language made by curious people. Kalestia is based on suggestions by people like you, who'd like to learn and create a new language.</p>
+										<ul class="actions">
+											<li><a href="#learning" class="button">Learn More</a></li>
+										</ul>
+									</div>
+									<span class="image"><img src="images/pic01.jpg" alt="" /></span>
+								</div>
+							</section>
+
+						<!-- First Section -->
+							<section id="why-Kalestia" class="main special">
+								<header class="major">
+									<h2>What makes Kalestia special?</h2>
+								</header>
+								<ul class="features">
+									<li>
+										<span class="icon major style1 fa-align-justify"></span>
+										<h3>An entirely new writing system</h3>
+										<p>Our community has developed a whole unique writing system for Kalestia. But there is no pressure in using it, you can use Kalestia however you'd like. You can find it <a href="writing.html">here</a></p>
+									</li>
+									<li>
+										<span class="icon major style3 fa-copy"></span>
+										<h3>Free, Open-Source materials</h3>
+										<p>Every page, every letter of Kalestia writing materials are free to use for everyone. All of them can be found <a href="materials.html">here</a>.</p>
+									</li>
+									<li>
+										<span class="icon major style5 fa-signal"></span>
+										<h3>A helpful and thriving community</h3>
+										<p>There's no shame in asking someone for help. And we are more than willing to help you with every quesition you might have. You can find every way to contact us <a href="contribute.html">here</a>.</p>
+									</li>
+								</ul>
+							</section>
+
+						<!-- Second Section -->
+							<section id="community" class="main special">
+								<header class="major">
+									<h2>Community</h2>
+									<p>Our community is thriving and we are more than happy<br />
+									to welcome you to the magic of Kalestia.</p>
+								</header>
+								<ul class="statistics">
+									<li class="style1">
+										<span class="icon fa-book"></span>
+										<strong>5,120</strong> Pages
+									</li>
+									<li class="style2">
+										<span class="icon fa-archive"></span>
+										<strong>8,192</strong> Words
+									</li>
+									<li class="style3">
+										<span class="icon fa-file"></span>
+										<strong>1,032</strong> Papers
+									</li>
+									<li class="style4">
+										<span class="icon fa-laptop"></span>
+										<strong>4,773</strong> Courses finished
+									</li>
+									<li class="style5">
+										<span class="icon fa-signal"></span>
+										<strong>829</strong> Speakers
+									</li>
+								</ul>
+								<p class="content">Since all of our resources are free to use, there have been a lot of people interested and we highly encourage you to look into it, if you're interested. There's nothing in this world like Kalestia. It's something brand-new and interesting. Made with love, by all of us. Everyone can add to Kalestia so if you'd like to contribute, see the information below.</p>
+								<footer class="major">
+									<ul class="actions">
+										<li><a href="contribute.html" class="button">Learn More</a></li>
+									</ul>
+								</footer>
+							</section>
+
+						<!-- Get Started -->
+							<section id="learning" class="main special">
+								<header class="major">
+									<h2>Interested?</h2>
+									<p>Just press one of the buttons below and jump into the world of Kalestia.</p>
+								</header>
+								<footer class="major">
+									<ul class="actions">
+										<li><a href="translator.html" class="button">Translator</a></li>
+										<li><a onClick="unfinished()" class="button special">Get Started</a></li>
+									</ul>
+								</footer>
+							</section>
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<section>
+							<h2>Legal information</h2>
+							<p>Every page of Kalestia's materials is free to use and is not permitted to be sold by anyone to anyone. If this does happen, please immediately retract your money and file a legal notice to the perpetrator.</p>
+						</section>
+						<section>
+							<h2>Contact us</h2>
+							<dl class="alt">
+								<dt>Telegram</dt>
+								<dd><a href="https://t.me/Kalestia">Discussion and Community group</a></dd>
+								<dd><a href="https://t.me/lucx1">Founder of Kalestia</a>
+								<dt>Email</dt>
+								<dd>Website Designer: <a href="#">Kalestia@relavien.nl</a></dd>
+							</dl>
+						</section>
+						<p class="copyright">&copy; Relavien & lucx1; <a href="https://html5up.net">HTML5 UP</a>.</p>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+			<script>
+				function unfinished() {
+					alert("Since Kalestia is still in early progress, this part of the website is not ready yet. We are working hard on finalizing the website and promise you that something really big is happening here! Stay tuned!")
+				}
+			</script>
+
 	</body>
 </html>

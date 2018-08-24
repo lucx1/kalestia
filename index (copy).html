@@ -1,0 +1,81 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Kalestia - A non-conventional language</title>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<title>Kalestia Translator</title>
+	</head>
+	<body>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<p style="margin-bottom: 32px;">
+							<span class="logo" onClick="window.location = 'index.html'" style="margin: 8px;"><img src="images/logo.svg" alt="" /></span>
+							<ul class="actions">
+								<li><a href="translator.html" class="button">Translator</a></li>
+								<li><a onClick="unfinished()" class="button special">Get Started</a></li>
+							</ul>
+						</p>
+						<h1>Translator</h1>
+						<p>On this page you can translate words from English to Kalestia or vise versa.</p>
+					</header>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Introduction -->
+							<section id="content" class="main">
+								<div id="inputdiv">
+									<p><text id="transdirh"></text> <input type="button" value="Switch" onClick="switchdir()" class="button special"></p>
+									<p>
+										<input type="text" id="wordinput">
+									</p>
+								</div>
+								<div id="resultdiv">
+								</div>
+							</section>
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<section>
+							<h2>Legal information</h2>
+							<p>Every page of Kalestia's materials is free to use and is not permitted to be sold by anyone to anyone. If this does happen, please immediately retract your money and file a legal notice to the perpetrator.</p>
+						</section>
+						<section>
+							<h2>Contact us</h2>
+							<dl class="alt">
+								<dt>Telegram</dt>
+								<dd><a href="https://t.me/Kalestia">Discussion and Community group</a></dd>
+								<dd><a href="https://t.me/lucx1">Founder of Kalestia</a>
+								<dt>Email</dt>
+								<dd>Website Designer: <a href="#">Kalestia@relavien.nl</a></dd>
+							</dl>
+						</section>
+						<p class="copyright">&copy; Relavien & lucx1; <a href="https://html5up.net">HTML5 UP</a>.</p>
+					</footer>
+
+			</div>
+		<script src="assets/js/vocabulary.js"></script>
+		<script src="assets/js/translator.js"></script>
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrollex.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/skel.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+		<script>
+			function unfinished() {
+				alert("Since Kalestia is still in early progress, this part of the website is not ready yet. We are working hard on finalizing the website and promise you that something really big is happening here! Stay tuned!")
+			}
+		</script>
+	</body>
+</html>

@@ -62,7 +62,7 @@ function starttrans() {
 						} else if (wnum == 7) {
 							wordtype = "Interjection"
 						}
-						resultdivvar = resultdivvar + "<h1>" + wordtype + "</h1>";
+						resultdivvar = resultdivvar + "<h3>" + wordtype + "</h3>";
 						wordtypes[wnum] = true;
 					}
 					var revtransnum = kalestiavoc[englishvoc[submitnum][1][translations]][1].length - 1;
@@ -120,7 +120,7 @@ function starttrans() {
 						} else if (wnum == 7) {
 							wordtype = "Interjection"
 						}
-						resultdivvar = resultdivvar + "<h1>" + wordtype + "</h1>";
+						resultdivvar = resultdivvar + "<h2>" + wordtype + "</h2>";
 						wordtypes[wnum] = true;
 					}
 					var revtransnum = englishvoc[kalestiavoc[submitnum][1][translations]][1].length - 1;
