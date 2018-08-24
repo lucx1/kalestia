@@ -90,23 +90,23 @@
 								<ul class="statistics">
 									<li class="style1">
 										<span class="icon fa-book"></span>
-										<strong>5,120</strong> Pages
+										<strong>---</strong> Pages
 									</li>
 									<li class="style2">
 										<span class="icon fa-archive"></span>
-										<strong>8,192</strong> Words
+										<strong><text id="wordcount"></text></strong> Words
 									</li>
 									<li class="style3">
 										<span class="icon fa-file"></span>
-										<strong>1,032</strong> Papers
+										<strong>---</strong> Papers
 									</li>
 									<li class="style4">
 										<span class="icon fa-laptop"></span>
-										<strong>4,773</strong> Courses finished
+										<strong>---</strong> Courses finished
 									</li>
 									<li class="style5">
 										<span class="icon fa-signal"></span>
-										<strong>829</strong> Speakers
+										<strong>---</strong> Speakers
 									</li>
 								</ul>
 								<p class="content">Since all of our resources are free to use, there have been a lot of people interested and we highly encourage you to look into it, if you're interested. There's nothing in this world like Kalestia. It's something brand-new and interesting. Made with love, by all of us. Everyone can add to Kalestia so if you'd like to contribute, see the information below.</p>
@@ -155,6 +155,7 @@
 			</div>
 
 		<!-- Scripts -->
+			<script src="assets/js/vocabulary.js"></script>
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrollex.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
@@ -163,6 +164,8 @@
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
 			<script>
+				var wordcountnum = kalestiavoc.length;
+				document.getElementById("wordcount").innerHTML = wordcountnum;
 				function unfinished() {
 					alert("Since Kalestia is still in early progress, this part of the website is not ready yet. We are working hard on finalizing the website and promise you that something really big is happening here! Stay tuned!")
 				}
