@@ -316,7 +316,7 @@ kalestiavoc[13][1][0] = 39;
 kalestiavoc[13][1][1] = 38;
 kalestiavoc[13][1][2] = 37;
 kalestiavoc[13][1][3] = 36;
-kalestiavoc[13][2] = 0;
+kalestiavoc[13][2] = 1;
 
 kalestiavoc[14][1] = new Array(); //dami
 kalestiavoc[14][1][0] = 41;
