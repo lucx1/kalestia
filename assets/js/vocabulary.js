@@ -43,6 +43,24 @@ kalestiavoc[12][0] = "biesas";
 kalestiavoc[13] = new Array();
 kalestiavoc[13][0] = "biles";
 
+kalestiavoc[14] = new Array();
+kalestiavoc[14][0] = "dami";
+
+kalestiavoc[15] = new Array();
+kalestiavoc[15][0] = "de";
+
+kalestiavoc[16] = new Array();
+kalestiavoc[16][0] = "dei";
+
+kalestiavoc[17] = new Array();
+kalestiavoc[17][0] = "deilui";
+
+kalestiavoc[18] = new Array();
+kalestiavoc[18][0] = "deils";
+
+kalestiavoc[19] = new Array();
+kalestiavoc[19][0] = "dizes";
+
 // -----    ENGLISH WORDS     -----
 var englishvoc = new Array();
 
@@ -166,6 +184,54 @@ englishvoc[38][0] = "be permitted";
 englishvoc[39] = new Array();
 englishvoc[39][0] = "can";
 
+englishvoc[40] = new Array();
+englishvoc[40][0] = "village";
+
+englishvoc[41] = new Array();
+englishvoc[41][0] = "town";
+
+englishvoc[42] = new Array();
+englishvoc[42][0] = "or";
+
+englishvoc[43] = new Array();
+englishvoc[43][0] = "backside";
+
+englishvoc[44] = new Array();
+englishvoc[44][0] = "behind";
+
+englishvoc[45] = new Array();
+englishvoc[45][0] = "back";
+
+englishvoc[46] = new Array();
+englishvoc[46][0] = "after";
+
+englishvoc[47] = new Array();
+englishvoc[47][0] = "past";
+
+englishvoc[48] = new Array();
+englishvoc[48][0] = "afternoon";
+
+englishvoc[49] = new Array();
+englishvoc[49][0] = "enjoy";
+
+englishvoc[50] = new Array();
+englishvoc[50][0] = "take pleasure";
+
+englishvoc[51] = new Array();
+englishvoc[51][0] = "savor";
+
+englishvoc[52] = new Array();
+englishvoc[52][0] = "relish";
+
+englishvoc[53] = new Array();
+englishvoc[53][0] = "want";
+
+englishvoc[54] = new Array();
+englishvoc[54][0] = "desire";
+
+englishvoc[55] = new Array();
+englishvoc[55][0] = "wish";
+
 // -----KALESTIA TRANSLATIONS -----
 
 kalestiavoc[0][1] = new Array(); //enim
@@ -250,7 +316,41 @@ kalestiavoc[13][1][0] = 39;
 kalestiavoc[13][1][1] = 38;
 kalestiavoc[13][1][2] = 37;
 kalestiavoc[13][1][3] = 36;
-kalestiavoc[13][2] = 1;
+kalestiavoc[13][2] = 0;
+
+kalestiavoc[14][1] = new Array(); //dami
+kalestiavoc[14][1][0] = 41;
+kalestiavoc[14][1][1] = 40;
+kalestiavoc[14][2] = 0;
+
+kalestiavoc[15][1] = new Array(); //de
+kalestiavoc[15][1][0] = 42;
+kalestiavoc[15][2] = 5;
+
+kalestiavoc[16][1] = new Array(); //dei
+kalestiavoc[16][1][0] = 47;
+kalestiavoc[16][1][1] = 46;
+kalestiavoc[16][1][2] = 45;
+kalestiavoc[16][1][3] = 44;
+kalestiavoc[16][1][4] = 43;
+kalestiavoc[16][2] = 0;
+
+kalestiavoc[17][1] = new Array(); //deilui
+kalestiavoc[17][1][0] = 48;
+kalestiavoc[17][2] = 0;
+
+kalestiavoc[18][1] = new Array(); //deils
+kalestiavoc[18][1][0] = 52;
+kalestiavoc[18][1][1] = 51;
+kalestiavoc[18][1][2] = 50;
+kalestiavoc[18][1][3] = 49;
+kalestiavoc[18][2] = 1;
+
+kalestiavoc[19][1] = new Array(); //dizes
+kalestiavoc[19][1][0] = 55;
+kalestiavoc[19][1][1] = 54;
+kalestiavoc[19][1][2] = 53;
+kalestiavoc[19][2] = 1;
 
 // ----- ENGLISH TRANSLATIONS -----
 englishvoc[0][1] = new Array(); //beautiful
@@ -414,3 +514,67 @@ englishvoc[38][2] = 1;
 englishvoc[39][1] = new Array(); //can
 englishvoc[39][1][0] = 13;
 englishvoc[39][2] = 1;
+
+englishvoc[40][1] = new Array(); //village
+englishvoc[40][1][0] = 14;
+englishvoc[40][2] = 0;
+
+englishvoc[41][1] = new Array(); //town
+englishvoc[41][1][0] = 14;
+englishvoc[41][2] = 0;
+
+englishvoc[42][1] = new Array(); //or
+englishvoc[42][1][0] = 15;
+englishvoc[42][2] = 5;
+
+englishvoc[43][1] = new Array(); //backside
+englishvoc[43][1][0] = 16;
+englishvoc[43][2] = 0;
+
+englishvoc[44][1] = new Array(); //behind
+englishvoc[44][1][0] = 16;
+englishvoc[44][2] = 8;
+
+englishvoc[45][1] = new Array(); //back
+englishvoc[45][1][0] = 16;
+englishvoc[45][2] = 0;
+
+englishvoc[46][1] = new Array(); //after
+englishvoc[46][1][0] = 16;
+englishvoc[46][2] = 8;
+
+englishvoc[47][1] = new Array(); //past
+englishvoc[47][1][0] = 16;
+englishvoc[47][2] = 8;
+
+englishvoc[48][1] = new Array(); //afternoon
+englishvoc[48][1][0] = 17;
+englishvoc[48][2] = 0;
+
+englishvoc[49][1] = new Array(); //enjoy
+englishvoc[49][1][0] = 18;
+englishvoc[49][2] = 0;
+
+englishvoc[50][1] = new Array(); //take pleasure
+englishvoc[50][1][0] = 18;
+englishvoc[50][2] = 1;
+
+englishvoc[51][1] = new Array(); //savor
+englishvoc[51][1][0] = 18;
+englishvoc[51][2] = 1;
+
+englishvoc[52][1] = new Array(); //relish
+englishvoc[52][1][0] = 18;
+englishvoc[52][2] = 1;
+
+englishvoc[53][1] = new Array(); //want
+englishvoc[53][1][0] = 19;
+englishvoc[53][2] = 1;
+
+englishvoc[54][1] = new Array(); //desire
+englishvoc[54][1][0] = 19;
+englishvoc[54][2] = 1;
+
+englishvoc[55][1] = new Array(); //wish
+englishvoc[55][1][0] = 19;
+englishvoc[55][2] = 1;

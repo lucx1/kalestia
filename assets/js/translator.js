@@ -10,6 +10,7 @@ VALUES OF WORD TYPES:
 5 = Conjunction
 6 = Adverb
 7 = Interjection
+8 = Preposition
 
 */
 // ----- PREPARING TRANSLATOR -----
@@ -61,6 +62,8 @@ function starttrans() {
 							wordtype = "Adverb"
 						} else if (wnum == 7) {
 							wordtype = "Interjection"
+						} else if (wnum == 8) {
+							wordtype = "Prepositon"
 						}
 						resultdivvar = resultdivvar + "<h3>" + wordtype + "</h3>";
 						wordtypes[wnum] = true;

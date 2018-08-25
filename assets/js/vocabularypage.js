@@ -39,6 +39,8 @@ function builddictionary() {
 						wordtype = "Adverb";
 					} else if (wnum == 7) {
 						wordtype = "Interjection";
+					} else if (wnum == 8) {
+						wordtype = "Prepositon"
 					}
 					transnum = englishsort[i][1].length - 1;
 					var transvar = "";
@@ -93,6 +95,8 @@ function builddictionary() {
 						wordtype = "Adverb";
 					} else if (wnum == 7) {
 						wordtype = "Interjection";
+					} else if (wnum == 8) {
+						wordtype = "Prepositon"
 					}
 					transnum = kalestiasort[i][1].length - 1;
 					var transvar = "";
