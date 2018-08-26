@@ -61,6 +61,36 @@ kalestiavoc[18][0] = "deils";
 kalestiavoc[19] = new Array();
 kalestiavoc[19][0] = "dizes";
 
+kalestiavoc[20] = new Array();
+kalestiavoc[20][0] = "e";
+
+kalestiavoc[21] = new Array();
+kalestiavoc[21][0] = "ekelia";
+
+kalestiavoc[22] = new Array();
+kalestiavoc[22][0] = "elf";
+
+kalestiavoc[23] = new Array();
+kalestiavoc[23][0] = "elistas";
+
+kalestiavoc[24] = new Array();
+kalestiavoc[24][0] = "eks";
+
+kalestiavoc[25] = new Array();
+kalestiavoc[25][0] = "emia";
+
+kalestiavoc[26] = new Array();
+kalestiavoc[26][0] = "enu";
+
+kalestiavoc[27] = new Array();
+kalestiavoc[27][0] = "est";
+
+kalestiavoc[28] = new Array();
+kalestiavoc[28][0] = "es";
+
+kalestiavoc[29] = new Array();
+kalestiavoc[29][0] = "ezias";
+
 // -----    ENGLISH WORDS     -----
 var englishvoc = new Array();
 
@@ -232,6 +262,78 @@ englishvoc[54][0] = "desire";
 englishvoc[55] = new Array();
 englishvoc[55][0] = "wish";
 
+englishvoc[56] = new Array();
+englishvoc[56][0] = "he";
+
+englishvoc[57] = new Array();
+englishvoc[57][0] = "she";
+
+englishvoc[58] = new Array();
+englishvoc[58][0] = "it";
+
+englishvoc[59] = new Array();
+englishvoc[59][0] = "they";
+
+englishvoc[60] = new Array();
+englishvoc[60][0] = "him";
+
+englishvoc[61] = new Array();
+englishvoc[61][0] = "her";
+
+englishvoc[62] = new Array();
+englishvoc[62][0] = "them";
+
+englishvoc[63] = new Array();
+englishvoc[63][0] = "magic";
+
+englishvoc[64] = new Array();
+englishvoc[64][0] = "incantation";
+
+englishvoc[65] = new Array();
+englishvoc[65][0] = "elf";
+
+englishvoc[66] = new Array();
+englishvoc[66][0] = "add";
+
+englishvoc[67] = new Array();
+englishvoc[67][0] = "add up";
+
+englishvoc[68] = new Array();
+englishvoc[68][0] = "join";
+
+englishvoc[69] = new Array();
+englishvoc[69][0] = "throw in";
+
+englishvoc[70] = new Array();
+englishvoc[70][0] = "five";
+
+englishvoc[71] = new Array();
+englishvoc[71][0] = "ever";
+
+englishvoc[72] = new Array();
+englishvoc[72][0] = "yet";
+
+englishvoc[73] = new Array();
+englishvoc[73][0] = "already";
+
+englishvoc[74] = new Array();
+englishvoc[74][0] = "yes";
+
+englishvoc[75] = new Array();
+englishvoc[75][0] = "yeah";
+
+englishvoc[76] = new Array();
+englishvoc[76][0] = "east";
+
+englishvoc[77] = new Array();
+englishvoc[77][0] = "do";
+
+englishvoc[78] = new Array();
+englishvoc[78][0] = "must";
+
+englishvoc[79] = new Array();
+englishvoc[79][0] = "should";
+
 // -----KALESTIA TRANSLATIONS -----
 
 kalestiavoc[0][1] = new Array(); //enim
@@ -351,6 +453,61 @@ kalestiavoc[19][1][0] = 55;
 kalestiavoc[19][1][1] = 54;
 kalestiavoc[19][1][2] = 53;
 kalestiavoc[19][2] = 1;
+kalestiavoc[19][2] = 0;
+
+kalestiavoc[20][1] = new Array(); //e
+kalestiavoc[20][1][0] = 62;
+kalestiavoc[20][1][1] = 61;
+kalestiavoc[20][1][2] = 60;
+kalestiavoc[20][1][3] = 59;
+kalestiavoc[20][1][4] = 58;
+kalestiavoc[20][1][5] = 57;
+kalestiavoc[20][1][6] = 56;
+kalestiavoc[20][2] = 3;
+
+kalestiavoc[21][1] = new Array(); //ekelia
+kalestiavoc[21][1][0] = 64;
+kalestiavoc[21][1][1] = 63;
+kalestiavoc[21][2] = 0;
+
+kalestiavoc[22][1] = new Array(); //elf
+kalestiavoc[22][1][0] = 65;
+kalestiavoc[22][2] = 0;
+
+kalestiavoc[23][1] = new Array(); //elistas
+kalestiavoc[23][1][0] = 69;
+kalestiavoc[23][1][0] = 68;
+kalestiavoc[23][1][0] = 67;
+kalestiavoc[23][1][0] = 66;
+kalestiavoc[23][2] = 1;
+
+kalestiavoc[24][1] = new Array(); //eks
+kalestiavoc[24][1][0] = 70;
+kalestiavoc[24][2] = 4;
+
+kalestiavoc[25][1] = new Array(); //emia
+kalestiavoc[25][1][0] = 73;
+kalestiavoc[25][1][0] = 72;
+kalestiavoc[25][1][0] = 71;
+kalestiavoc[25][2] = 6;
+
+kalestiavoc[26][1] = new Array(); //enu
+kalestiavoc[26][1][0] = 75;
+kalestiavoc[26][1][0] = 74;
+kalestiavoc[26][2] = 7;
+
+kalestiavoc[27][1] = new Array(); //est
+kalestiavoc[27][1][0] = 76;
+kalestiavoc[27][2] = 0;
+
+kalestiavoc[28][1] = new Array(); //es
+kalestiavoc[28][1][0] = 77;
+kalestiavoc[28][2] = 1;
+
+kalestiavoc[29][1] = new Array(); //ezias
+kalestiavoc[29][1][0] = 79;
+kalestiavoc[29][1][0] = 78;
+kalestiavoc[29][2] = 1;
 
 // ----- ENGLISH TRANSLATIONS -----
 englishvoc[0][1] = new Array(); //beautiful
@@ -578,3 +735,99 @@ englishvoc[54][2] = 1;
 englishvoc[55][1] = new Array(); //wish
 englishvoc[55][1][0] = 19;
 englishvoc[55][2] = 1;
+
+englishvoc[56][1] = new Array(); //he
+englishvoc[56][1][0] = 20;
+englishvoc[56][2] = 3;
+
+englishvoc[57][1] = new Array(); //she
+englishvoc[57][1][0] = 20;
+englishvoc[57][2] = 3;
+
+englishvoc[58][1] = new Array(); //it
+englishvoc[58][1][0] = 20;
+englishvoc[58][2] = 3;
+
+englishvoc[59][1] = new Array(); //they
+englishvoc[59][1][0] = 20;
+englishvoc[59][2] = 3;
+
+englishvoc[60][1] = new Array(); //him
+englishvoc[60][1][0] = 20;
+englishvoc[60][2] = 3;
+
+englishvoc[61][1] = new Array(); //her
+englishvoc[61][1][0] = 20;
+englishvoc[61][2] = 3;
+
+englishvoc[62][1] = new Array(); //them
+englishvoc[62][1][0] = 20;
+englishvoc[62][2] = 3;
+
+englishvoc[63][1] = new Array(); //magic
+englishvoc[63][1][0] = 21;
+englishvoc[63][2] = 0;
+
+englishvoc[64][1] = new Array(); //incantation
+englishvoc[64][1][0] = 21;
+englishvoc[64][2] = 0;
+
+englishvoc[65][1] = new Array(); //elf
+englishvoc[65][1][0] = 22;
+englishvoc[65][2] = 0;
+
+englishvoc[66][1] = new Array(); //add
+englishvoc[66][1][0] = 23;
+englishvoc[66][2] = 1;
+
+englishvoc[67][1] = new Array(); //add up
+englishvoc[67][1][0] = 23;
+englishvoc[67][2] = 1;
+
+englishvoc[68][1] = new Array(); //join
+englishvoc[68][1][0] = 23;
+englishvoc[68][2] = 1;
+
+englishvoc[69][1] = new Array(); //throw in
+englishvoc[69][1][0] = 23;
+englishvoc[69][2] = 1;
+
+englishvoc[70][1] = new Array(); //five
+englishvoc[70][1][0] = 24;
+englishvoc[70][2] = 4;
+
+englishvoc[71][1] = new Array(); //ever
+englishvoc[71][1][0] = 25;
+englishvoc[71][2] = 1;
+
+englishvoc[72][1] = new Array(); //yet
+englishvoc[72][1][0] = 25;
+englishvoc[72][2] = 6;
+
+englishvoc[73][1] = new Array(); //already
+englishvoc[73][1][0] = 25;
+englishvoc[73][2] = 6;
+
+englishvoc[74][1] = new Array(); //yes
+englishvoc[74][1][0] = 26;
+englishvoc[74][2] = 7;
+
+englishvoc[75][1] = new Array(); //yeah
+englishvoc[75][1][0] = 26;
+englishvoc[75][2] = 7;
+
+englishvoc[76][1] = new Array(); //east
+englishvoc[76][1][0] = 27;
+englishvoc[76][2] = 0;
+
+englishvoc[77][1] = new Array(); //do
+englishvoc[77][1][0] = 28;
+englishvoc[77][2] = 1;
+
+englishvoc[78][1] = new Array(); //must
+englishvoc[78][1][0] = 29;
+englishvoc[78][2] = 1;
+
+englishvoc[79][1] = new Array(); //should
+englishvoc[79][1][0] = 29;
+englishvoc[79][2] = 1;
