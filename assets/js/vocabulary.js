@@ -91,6 +91,558 @@ kalestiavoc[28][0] = "es";
 kalestiavoc[29] = new Array();
 kalestiavoc[29][0] = "ezias";
 
+kalestiavoc[30] = new Array();
+kalestiavoc[30][0] = "faliuts";
+
+kalestiavoc[31] = new Array();
+kalestiavoc[31][0] = "fanis";
+
+kalestiavoc[32] = new Array();
+kalestiavoc[32][0] = "fek";
+
+kalestiavoc[33] = new Array();
+kalestiavoc[33][0] = "felue";
+
+kalestiavoc[34] = new Array();
+kalestiavoc[34][0] = "femies";
+
+kalestiavoc[35] = new Array();
+kalestiavoc[35][0] = "feris";
+
+kalestiavoc[36] = new Array();
+kalestiavoc[36][0] = "festian";
+
+kalestiavoc[37] = new Array();
+kalestiavoc[37][0] = "fiama";
+
+kalestiavoc[38] = new Array();
+kalestiavoc[38][0] = "fiems";
+
+kalestiavoc[39] = new Array();
+kalestiavoc[39][0] = "fiminiat";
+
+kalestiavoc[40] = new Array();
+kalestiavoc[40][0] = "finjun";
+
+kalestiavoc[41] = new Array();
+kalestiavoc[41][0] = "fua";
+
+kalestiavoc[42] = new Array();
+kalestiavoc[42][0] = "fueli";
+
+kalestiavoc[43] = new Array();
+kalestiavoc[43][0] = "fujun";
+
+kalestiavoc[44] = new Array();
+kalestiavoc[44][0] = "ful";
+
+kalestiavoc[45] = new Array();
+kalestiavoc[45][0] = "ganie";
+
+kalestiavoc[46] = new Array();
+kalestiavoc[46][0] = "gilia";
+
+kalestiavoc[47] = new Array();
+kalestiavoc[47][0] = "halia";
+
+kalestiavoc[48] = new Array();
+kalestiavoc[48][0] = "hasai";
+
+kalestiavoc[49] = new Array();
+kalestiavoc[49][0] = "hea";
+
+kalestiavoc[50] = new Array();
+kalestiavoc[50][0] = "hifikas";
+
+kalestiavoc[51] = new Array();
+kalestiavoc[51][0] = "hinas";
+
+kalestiavoc[52] = new Array();
+kalestiavoc[52][0] = "ia";
+
+kalestiavoc[53] = new Array();
+kalestiavoc[53][0] = "ie";
+
+kalestiavoc[54] = new Array();
+kalestiavoc[54][0] = "ifia";
+
+kalestiavoc[55] = new Array();
+kalestiavoc[55][0] = "ifis";
+
+kalestiavoc[56] = new Array();
+kalestiavoc[56][0] = "ifsnes";
+
+kalestiavoc[57] = new Array();
+kalestiavoc[57][0] = "ikue";
+
+kalestiavoc[58] = new Array();
+kalestiavoc[58][0] = "ilemia";
+
+kalestiavoc[59] = new Array();
+kalestiavoc[59][0] = "ilira";
+
+kalestiavoc[60] = new Array();
+kalestiavoc[60][0] = "ilis";
+
+kalestiavoc[61] = new Array();
+kalestiavoc[61][0] = "ilya";
+
+kalestiavoc[62] = new Array();
+kalestiavoc[62][0] = "in";
+
+kalestiavoc[63] = new Array();
+kalestiavoc[63][0] = "ine";
+
+kalestiavoc[64] = new Array();
+kalestiavoc[64][0] = "ini";
+
+kalestiavoc[65] = new Array();
+kalestiavoc[65][0] = "inminas";
+
+kalestiavoc[66] = new Array();
+kalestiavoc[66][0] = "inwelias";
+
+kalestiavoc[67] = new Array();
+kalestiavoc[67][0] = "io";
+
+kalestiavoc[68] = new Array();
+kalestiavoc[68][0] = "ize";
+
+kalestiavoc[69] = new Array();
+kalestiavoc[69][0] = "jis";
+
+kalestiavoc[70] = new Array();
+kalestiavoc[70][0] = "jilea";
+
+kalestiavoc[71] = new Array();
+kalestiavoc[71][0] = "jies";
+
+kalestiavoc[72] = new Array();
+kalestiavoc[72][0] = "juliat";
+
+kalestiavoc[73] = new Array();
+kalestiavoc[73][0] = "jun";
+
+kalestiavoc[74] = new Array();
+kalestiavoc[74][0] = "kaia";
+
+kalestiavoc[75] = new Array();
+kalestiavoc[75][0] = "kaor";
+
+kalestiavoc[76] = new Array();
+kalestiavoc[76][0] = "kapin";
+
+kalestiavoc[77] = new Array();
+kalestiavoc[77][0] = "ke";
+
+kalestiavoc[78] = new Array();
+kalestiavoc[78][0] = "kia";
+
+kalestiavoc[79] = new Array();
+kalestiavoc[79][0] = "kins";
+
+kalestiavoc[80] = new Array();
+kalestiavoc[80][0] = "kisimeas";
+
+kalestiavoc[81] = new Array();
+kalestiavoc[81][0] = "kontakt";
+
+kalestiavoc[82] = new Array();
+kalestiavoc[82][0] = "krei";
+
+kalestiavoc[83] = new Array();
+kalestiavoc[83][0] = "kreini";
+
+kalestiavoc[84] = new Array();
+kalestiavoc[84][0] = "krile";
+
+kalestiavoc[85] = new Array();
+kalestiavoc[85][0] = "kua";
+
+kalestiavoc[86] = new Array();
+kalestiavoc[86][0] = "kui";
+
+kalestiavoc[87] = new Array();
+kalestiavoc[87][0] = "kue";
+
+kalestiavoc[88] = new Array();
+kalestiavoc[88][0] = "kuems";
+
+kalestiavoc[89] = new Array();
+kalestiavoc[89][0] = "kuie";
+
+kalestiavoc[90] = new Array();
+kalestiavoc[90][0] = "kunt";
+
+kalestiavoc[91] = new Array();
+kalestiavoc[91][0] = "kuosa";
+
+kalestiavoc[92] = new Array();
+kalestiavoc[92][0] = "kusmi";
+
+kalestiavoc[93] = new Array();
+kalestiavoc[93][0] = "kusye";
+
+kalestiavoc[94] = new Array();
+kalestiavoc[94][0] = "lam";
+
+kalestiavoc[95] = new Array();
+kalestiavoc[95][0] = "le";
+
+kalestiavoc[96] = new Array();
+kalestiavoc[96][0] = "lefies";
+
+kalestiavoc[97] = new Array();
+kalestiavoc[97][0] = "leidon";
+
+kalestiavoc[98] = new Array();
+kalestiavoc[98][0] = "lem";
+
+kalestiavoc[99] = new Array();
+kalestiavoc[99][0] = "lemia";
+
+kalestiavoc[100] = new Array();
+kalestiavoc[100][0] = "les";
+
+kalestiavoc[101] = new Array();
+kalestiavoc[101][0] = "letumas";
+
+kalestiavoc[102] = new Array();
+kalestiavoc[102][0] = "lezia";
+
+kalestiavoc[103] = new Array();
+kalestiavoc[103][0] = "li";
+
+kalestiavoc[104] = new Array();
+kalestiavoc[104][0] = "liame";
+
+kalestiavoc[105] = new Array();
+kalestiavoc[105][0] = "liata";
+
+kalestiavoc[106] = new Array();
+kalestiavoc[106][0] = "lifinis";
+
+kalestiavoc[107] = new Array();
+kalestiavoc[107][0] = "lilia";
+
+kalestiavoc[108] = new Array();
+kalestiavoc[108][0] = "limias";
+
+kalestiavoc[109] = new Array();
+kalestiavoc[109][0] = "linem";
+
+kalestiavoc[110] = new Array();
+kalestiavoc[110][0] = "lintumas";
+
+kalestiavoc[111] = new Array();
+kalestiavoc[111][0] = "lirams";
+
+kalestiavoc[112] = new Array();
+kalestiavoc[112][0] = "losu";
+
+kalestiavoc[113] = new Array();
+kalestiavoc[113][0] = "lufidem";
+
+kalestiavoc[114] = new Array();
+kalestiavoc[114][0] = "lui";
+
+kalestiavoc[115] = new Array();
+kalestiavoc[115][0] = "lunitia";
+
+kalestiavoc[116] = new Array();
+kalestiavoc[116][0] = "mena";
+
+kalestiavoc[117] = new Array();
+kalestiavoc[117][0] = "menas";
+
+kalestiavoc[118] = new Array();
+kalestiavoc[118][0] = "menasutat";
+
+kalestiavoc[119] = new Array();
+kalestiavoc[119][0] = "meshya";
+
+kalestiavoc[120] = new Array();
+kalestiavoc[120][0] = "mibis";
+
+kalestiavoc[121] = new Array();
+kalestiavoc[121][0] = "milen";
+
+kalestiavoc[122] = new Array();
+kalestiavoc[122][0] = "miluns";
+
+kalestiavoc[123] = new Array();
+kalestiavoc[123][0] = "mina";
+
+kalestiavoc[124] = new Array();
+kalestiavoc[124][0] = "mint";
+
+kalestiavoc[125] = new Array();
+kalestiavoc[125][0] = "minia";
+
+kalestiavoc[126] = new Array();
+kalestiavoc[126][0] = "minor";
+
+kalestiavoc[127] = new Array();
+kalestiavoc[127][0] = "misias";
+
+kalestiavoc[128] = new Array();
+kalestiavoc[128][0] = "mismes";
+
+kalestiavoc[129] = new Array();
+kalestiavoc[129][0] = "mizis";
+
+kalestiavoc[130] = new Array();
+kalestiavoc[130][0] = "mua";
+
+kalestiavoc[131] = new Array();
+kalestiavoc[131][0] = "mue";
+
+kalestiavoc[132] = new Array();
+kalestiavoc[132][0] = "mui";
+
+kalestiavoc[133] = new Array();
+kalestiavoc[133][0] = "mujun";
+
+kalestiavoc[134] = new Array();
+kalestiavoc[134][0] = "neli";
+
+kalestiavoc[135] = new Array();
+kalestiavoc[135][0] = "nelo";
+
+kalestiavoc[136] = new Array();
+kalestiavoc[136][0] = "ni";
+
+kalestiavoc[137] = new Array();
+kalestiavoc[137][0] = "nils";
+
+kalestiavoc[138] = new Array();
+kalestiavoc[138][0] = "nim";
+
+kalestiavoc[139] = new Array();
+kalestiavoc[139][0] = "nimanu";
+
+kalestiavoc[140] = new Array();
+kalestiavoc[140][0] = "nitumas";
+
+kalestiavoc[141] = new Array();
+kalestiavoc[141][0] = "niu";
+
+kalestiavoc[142] = new Array();
+kalestiavoc[142][0] = "nizimena";
+
+kalestiavoc[143] = new Array();
+kalestiavoc[143][0] = "numits";
+
+kalestiavoc[144] = new Array();
+kalestiavoc[144][0] = "nuwias";
+
+kalestiavoc[145] = new Array();
+kalestiavoc[145][0] = "o";
+
+kalestiavoc[146] = new Array();
+kalestiavoc[146][0] = "oliat";
+
+kalestiavoc[147] = new Array();
+kalestiavoc[147][0] = "omea";
+
+kalestiavoc[148] = new Array();
+kalestiavoc[148][0] = "onra";
+
+kalestiavoc[149] = new Array();
+kalestiavoc[149][0] = "piris";
+
+kalestiavoc[150] = new Array();
+kalestiavoc[150][0] = "prizis";
+
+kalestiavoc[151] = new Array();
+kalestiavoc[151][0] = "remun";
+
+kalestiavoc[152] = new Array();
+kalestiavoc[152][0] = "resila";
+
+kalestiavoc[153] = new Array();
+kalestiavoc[153][0] = "resma";
+
+kalestiavoc[154] = new Array();
+kalestiavoc[154][0] = "resmas";
+
+kalestiavoc[155] = new Array();
+kalestiavoc[155][0] = "rifena";
+
+kalestiavoc[156] = new Array();
+kalestiavoc[156][0] = "rijes";
+
+kalestiavoc[157] = new Array();
+kalestiavoc[157][0] = "rilas";
+
+kalestiavoc[158] = new Array();
+kalestiavoc[158][0] = "rilya";
+
+kalestiavoc[159] = new Array();
+kalestiavoc[159][0] = "risola";
+
+kalestiavoc[160] = new Array();
+kalestiavoc[160][0] = "risya";
+
+kalestiavoc[161] = new Array();
+kalestiavoc[161][0] = "rufia";
+
+kalestiavoc[162] = new Array();
+kalestiavoc[162][0] = "run";
+
+kalestiavoc[163] = new Array();
+kalestiavoc[163][0] = "runlui";
+
+kalestiavoc[164] = new Array();
+kalestiavoc[164][0] = "samos";
+
+kalestiavoc[165] = new Array();
+kalestiavoc[165][0] = "samoi";
+
+kalestiavoc[166] = new Array();
+kalestiavoc[166][0] = "semia";
+
+kalestiavoc[167] = new Array();
+kalestiavoc[167][0] = "selia";
+
+kalestiavoc[168] = new Array();
+kalestiavoc[168][0] = "semiasamoi";
+
+kalestiavoc[169] = new Array();
+kalestiavoc[169][0] = "seli";
+
+kalestiavoc[170] = new Array();
+kalestiavoc[170][0] = "selin";
+
+kalestiavoc[171] = new Array();
+kalestiavoc[171][0] = "shuzis";
+
+kalestiavoc[172] = new Array();
+kalestiavoc[172][0] = "si";
+
+kalestiavoc[173] = new Array();
+kalestiavoc[173][0] = "siafes";
+
+kalestiavoc[174] = new Array();
+kalestiavoc[174][0] = "sisma";
+
+kalestiavoc[175] = new Array();
+kalestiavoc[175][0] = "sismet";
+
+kalestiavoc[176] = new Array();
+kalestiavoc[176][0] = "sismia";
+
+kalestiavoc[177] = new Array();
+kalestiavoc[177][0] = "slodrem";
+
+kalestiavoc[178] = new Array();
+kalestiavoc[178][0] = "somdes";
+
+kalestiavoc[179] = new Array();
+kalestiavoc[179][0] = "somlis";
+
+kalestiavoc[180] = new Array();
+kalestiavoc[180][0] = "suales";
+
+kalestiavoc[181] = new Array();
+kalestiavoc[181][0] = "suilefaliuts";
+
+kalestiavoc[182] = new Array();
+kalestiavoc[182][0] = "sumi";
+
+kalestiavoc[183] = new Array();
+kalestiavoc[183][0] = "taelek";
+
+kalestiavoc[184] = new Array();
+kalestiavoc[184][0] = "talet";
+
+kalestiavoc[185] = new Array();
+kalestiavoc[185][0] = "talia";
+
+kalestiavoc[186] = new Array();
+kalestiavoc[186][0] = "talor";
+
+kalestiavoc[187] = new Array();
+kalestiavoc[187][0] = "tan";
+
+kalestiavoc[188] = new Array();
+kalestiavoc[188][0] = "tano";
+
+kalestiavoc[189] = new Array();
+kalestiavoc[189][0] = "tekias";
+
+kalestiavoc[190] = new Array();
+kalestiavoc[190][0] = "tekyem";
+
+kalestiavoc[191] = new Array();
+kalestiavoc[191][0] = "telefon";
+
+kalestiavoc[192] = new Array();
+kalestiavoc[192][0] = "temia";
+
+kalestiavoc[193] = new Array();
+kalestiavoc[193][0] = "tialis";
+
+kalestiavoc[194] = new Array();
+kalestiavoc[194][0] = "tias";
+
+kalestiavoc[195] = new Array();
+kalestiavoc[195][0] = "tins";
+
+kalestiavoc[196] = new Array();
+kalestiavoc[196][0] = "tis";
+
+kalestiavoc[197] = new Array();
+kalestiavoc[197][0] = "tlia";
+
+kalestiavoc[198] = new Array();
+kalestiavoc[198][0] = "tumas";
+
+kalestiavoc[199] = new Array();
+kalestiavoc[199][0] = "tukorias";
+
+kalestiavoc[200] = new Array();
+kalestiavoc[200][0] = "umeno";
+
+kalestiavoc[201] = new Array();
+kalestiavoc[201][0] = "uria";
+
+kalestiavoc[202] = new Array();
+kalestiavoc[202][0] = "ustia";
+
+kalestiavoc[203] = new Array();
+kalestiavoc[203][0] = "uzia";
+
+kalestiavoc[204] = new Array();
+kalestiavoc[204][0] = "wels";
+
+kalestiavoc[205] = new Array();
+kalestiavoc[205][0] = "wezua";
+
+kalestiavoc[206] = new Array();
+kalestiavoc[206][0] = "wimen";
+
+kalestiavoc[207] = new Array();
+kalestiavoc[207][0] = "ya";
+
+kalestiavoc[208] = new Array();
+kalestiavoc[208][0] = "yesua";
+
+kalestiavoc[209] = new Array();
+kalestiavoc[209][0] = "yumea";
+
+kalestiavoc[210] = new Array();
+kalestiavoc[210][0] = "ziala";
+
+kalestiavoc[211] = new Array();
+kalestiavoc[211][0] = "zila";
+
+kalestiavoc[212] = new Array();
+kalestiavoc[212][0] = "zimena";
+
+kalestiavoc[213] = new Array();
+kalestiavoc[213][0] = "zel";
+
 // -----    ENGLISH WORDS     -----
 var englishvoc = new Array();
 
