@@ -90,15 +90,19 @@
 									to welcome you to the magic of Kalestia.</p>
 								</header>
 								<ul class="statistics">
-									<li class="style2">
+									<li class="style1">
 										<span class="icon fa-archive"></span>
 										<strong><text id="wordcount"></text></strong> Words
 									</li>
-									<li class="style4">
+									<li class="style2">
+										<span class="icon fa-sync"></span>
+										<strong><text id="ewordcount"></text></strong> English translations
+									</li>
+									<li class="style3">
 										<span class="icon fa-laptop"></span>
 										<strong>---</strong> Active learners
 									</li>
-									<li class="style5">
+									<li class="style4">
 										<span class="icon fa-signal"></span>
 										<strong>---</strong> Speakers
 									</li>
@@ -162,6 +166,8 @@
 			<script>
 				var wordcountnum = kalestiavoc.length;
 				document.getElementById("wordcount").innerHTML = wordcountnum;
+				var ewordcountnum = englishvoc.length;
+				document.getElementById("ewordcount").innerHTML = ewordcountnum;
 				function unfinished() {
 					alert("Since Kalestia is still in early progress, this part of the website is not ready yet. We are working hard on finalizing the website and promise you that something really big is happening here! Stay tuned!")
 				}
