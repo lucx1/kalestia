@@ -886,6 +886,411 @@ englishvoc[78][0] = "must";
 englishvoc[79] = new Array();
 englishvoc[79][0] = "should";
 
+englishvoc[80] = new Array();
+englishvoc[80][0] = "speak";
+
+englishvoc[81] = new Array();
+englishvoc[81][0] = "talk";
+
+englishvoc[82] = new Array();
+englishvoc[82][0] = "discourse";
+
+englishvoc[83] = new Array();
+englishvoc[83][0] = "try";
+
+englishvoc[84] = new Array();
+englishvoc[84][0] = "attempt";
+
+englishvoc[85] = new Array();
+englishvoc[85][0] = "have a try";
+
+englishvoc[86] = new Array();
+englishvoc[86][0] = "tempt";
+
+englishvoc[87] = new Array();
+englishvoc[87][0] = "four";
+
+englishvoc[88] = new Array();
+englishvoc[88][0] = "friend";
+
+englishvoc[89] = new Array();
+englishvoc[89][0] = "pal";
+
+englishvoc[90] = new Array();
+englishvoc[90][0] = "mate";
+
+englishvoc[91] = new Array();
+englishvoc[91][0] = "fellow";
+
+englishvoc[92] = new Array();
+englishvoc[92][0] = "cuddle";
+
+englishvoc[93] = new Array();
+englishvoc[93][0] = "snuggle";
+
+englishvoc[94] = new Array();
+englishvoc[94][0] = "nestle";
+
+englishvoc[95] = new Array();
+englishvoc[95][0] = "eat";
+
+englishvoc[96] = new Array();
+englishvoc[96][0] = "dine";
+
+englishvoc[97] = new Array();
+englishvoc[97][0] = "eat up";
+
+englishvoc[98] = new Array();
+englishvoc[98][0] = "great";
+
+englishvoc[99] = new Array();
+englishvoc[99][0] = "incredible";
+
+englishvoc[100] = new Array();
+englishvoc[100][0] = "fantastic";
+
+englishvoc[101] = new Array();
+englishvoc[101][0] = "amazing";
+
+englishvoc[102] = new Array();
+englishvoc[102][0] = "awesome";
+
+englishvoc[103] = new Array();
+englishvoc[103][0] = "wonderful";
+
+englishvoc[104] = new Array();
+englishvoc[104][0] = "gorgeos";
+
+englishvoc[105] = new Array();
+englishvoc[105][0] = "river";
+
+englishvoc[106] = new Array();
+englishvoc[106][0] = "learn";
+
+englishvoc[107] = new Array();
+englishvoc[107][0] = "pick up";
+
+englishvoc[108] = new Array();
+englishvoc[108][0] = "learn off";
+
+englishvoc[109] = new Array();
+englishvoc[109][0] = "incredible";
+
+englishvoc[110] = new Array();
+englishvoc[110][0] = "stunning";
+
+englishvoc[111] = new Array();
+englishvoc[111][0] = "amazing";
+
+englishvoc[112] = new Array();
+englishvoc[112][0] = "awesome";
+
+englishvoc[113] = new Array();
+englishvoc[113][0] = "supurb";
+
+englishvoc[114] = new Array();
+englishvoc[114][0] = "marvellous";
+
+englishvoc[115] = new Array();
+englishvoc[115][0] = "gorgeos";
+
+englishvoc[116] = new Array();
+englishvoc[116][0] = "great";
+
+englishvoc[117] = new Array();
+englishvoc[117][0] = "fantastic";
+
+englishvoc[118] = new Array();
+englishvoc[118][0] = "admirable";
+
+englishvoc[119] = new Array();
+englishvoc[119][0] = "tomorrow";
+
+englishvoc[120] = new Array();
+englishvoc[120][0] = "nobody";
+
+englishvoc[121] = new Array();
+englishvoc[121][0] = "no one";
+
+englishvoc[122] = new Array();
+englishvoc[122][0] = "text";
+
+englishvoc[123] = new Array();
+englishvoc[123][0] = "script";
+
+englishvoc[124] = new Array();
+englishvoc[124][0] = "lettering";
+
+englishvoc[125] = new Array();
+englishvoc[125][0] = "caption";
+
+englishvoc[126] = new Array();
+englishvoc[126][0] = "essay";
+
+englishvoc[127] = new Array();
+englishvoc[127][0] = "yesterday";
+
+englishvoc[128] = new Array();
+englishvoc[128][0] = "bed";
+
+englishvoc[129] = new Array();
+englishvoc[129][0] = "soup";
+
+englishvoc[130] = new Array();
+englishvoc[130][0] = "broth";
+
+englishvoc[131] = new Array();
+englishvoc[131][0] = "midday";
+
+englishvoc[132] = new Array();
+englishvoc[132][0] = "noon";
+
+englishvoc[133] = new Array();
+englishvoc[133][0] = "we";
+
+englishvoc[134] = new Array();
+englishvoc[134][0] = "us"; //they them
+
+englishvoc[135] = new Array();
+englishvoc[135][0] = "please";
+
+englishvoc[136] = new Array();
+englishvoc[136][0] = "live";
+
+englishvoc[137] = new Array();
+englishvoc[137][0] = "dwell";
+
+englishvoc[138] = new Array();
+englishvoc[138][0] = "reside";
+
+englishvoc[139] = new Array();
+englishvoc[139][0] = "stay";
+
+englishvoc[140] = new Array();
+englishvoc[140][0] = "like";
+
+englishvoc[141] = new Array();
+englishvoc[141][0] = "love"; //*
+
+englishvoc[142] = new Array();
+englishvoc[142][0] = "town"; //*
+
+englishvoc[143] = new Array();
+englishvoc[143][0] = "amour"; //*
+
+englishvoc[144] = new Array();
+englishvoc[144][0] = "adore"; //*
+
+englishvoc[145] = new Array();
+englishvoc[145][0] = "hello";
+
+englishvoc[146] = new Array();
+englishvoc[146][0] = "hi";
+
+englishvoc[147] = new Array();
+englishvoc[147][0] = "hey";
+
+englishvoc[148] = new Array();
+englishvoc[148][0] = "if";
+
+englishvoc[149] = new Array();
+englishvoc[149][0] = "in case";
+
+englishvoc[150] = new Array();
+englishvoc[150][0] = "which"; //*
+
+englishvoc[151] = new Array();
+englishvoc[151][0] = "sign in";
+
+englishvoc[152] = new Array();
+englishvoc[152][0] = "login";
+
+englishvoc[153] = new Array();
+englishvoc[153][0] = "activate";
+
+englishvoc[154] = new Array();
+englishvoc[154][0] = "enable";
+
+englishvoc[155] = new Array();
+englishvoc[155][0] = "turn on";
+
+englishvoc[156] = new Array();
+englishvoc[156][0] = "switch on"; //you
+
+englishvoc[157] = new Array();
+englishvoc[157][0] = "hour";
+
+englishvoc[158] = new Array();
+englishvoc[158][0] = "only";
+
+englishvoc[159] = new Array();
+englishvoc[159][0] = "just";
+
+englishvoc[160] = new Array();
+englishvoc[160][0] = "merely";
+
+englishvoc[161] = new Array();
+englishvoc[161][0] = "solely";
+
+englishvoc[162] = new Array();
+englishvoc[162][0] = "simply";
+
+englishvoc[163] = new Array();
+englishvoc[163][0] = "language";
+
+englishvoc[164] = new Array();
+englishvoc[164][0] = "tongue"; //go walk
+
+englishvoc[165] = new Array();
+englishvoc[165][0] = "rule";
+
+englishvoc[166] = new Array();
+englishvoc[166][0] = "regulation";
+
+englishvoc[167] = new Array();
+englishvoc[167][0] = "policy";
+
+englishvoc[168] = new Array();
+englishvoc[168][0] = "day";
+
+englishvoc[169] = new Array();
+englishvoc[169][0] = "thirty";
+
+englishvoc[170] = new Array();
+englishvoc[170][0] = "athirst";
+
+englishvoc[171] = new Array();
+englishvoc[171][0] = "blade";
+
+englishvoc[172] = new Array();
+englishvoc[172][0] = "knife";
+
+englishvoc[173] = new Array();
+englishvoc[173][0] = "razor";
+
+englishvoc[174] = new Array();
+englishvoc[174][0] = "here";
+
+englishvoc[175] = new Array();
+englishvoc[175][0] = "kind of";
+
+englishvoc[176] = new Array();
+englishvoc[176][0] = "somewhat";
+
+englishvoc[177] = new Array();
+englishvoc[177][0] = "rather";
+
+englishvoc[178] = new Array();
+englishvoc[178][0] = "slightly";
+
+englishvoc[179] = new Array();
+englishvoc[179][0] = "fairly";
+
+englishvoc[180] = new Array();
+englishvoc[180][0] = "nord";
+
+englishvoc[181] = new Array();
+englishvoc[181][0] = "confirm";
+
+englishvoc[182] = new Array();
+englishvoc[182][0] = "validate";
+
+englishvoc[183] = new Array();
+englishvoc[183][0] = "verify";
+
+englishvoc[184] = new Array();
+englishvoc[184][0] = "contact";
+
+englishvoc[185] = new Array();
+englishvoc[185][0] = "wrong";
+
+englishvoc[186] = new Array();
+englishvoc[186][0] = "incorrect";
+
+englishvoc[187] = new Array();
+englishvoc[187][0] = "mistaken";
+
+englishvoc[188] = new Array();
+englishvoc[188][0] = "false";
+
+englishvoc[189] = new Array();
+englishvoc[189][0] = "mistake";
+
+englishvoc[190] = new Array();
+englishvoc[190][0] = "error";
+
+englishvoc[191] = new Array();
+englishvoc[191][0] = "ill";
+
+englishvoc[192] = new Array();
+englishvoc[192][0] = "sick";
+
+englishvoc[193] = new Array();
+englishvoc[193][0] = "diseased";
+
+englishvoc[194] = new Array();
+englishvoc[194][0] = "unwell";
+
+englishvoc[195] = new Array();
+englishvoc[195][0] = "how";
+
+englishvoc[196] = new Array();
+englishvoc[196][0] = "who";
+
+englishvoc[197] = new Array();
+englishvoc[197][0] = "what";
+
+englishvoc[198] = new Array();
+englishvoc[198][0] = "think";
+
+englishvoc[199] = new Array();
+englishvoc[199][0] = "believe";
+
+englishvoc[200] = new Array();
+englishvoc[200][0] = "suppose";
+
+englishvoc[201] = new Array();
+englishvoc[201][0] = "assume";
+
+englishvoc[202] = new Array();
+englishvoc[202][0] = "feel";
+
+englishvoc[203] = new Array();
+englishvoc[203][0] = "time";
+
+englishvoc[204] = new Array();
+englishvoc[204][0] = "hundred";
+
+englishvoc[205] = new Array();
+englishvoc[205][0] = "code";
+
+englishvoc[206] = new Array();
+englishvoc[206][0] = "key";
+
+englishvoc[207] = new Array();
+englishvoc[207][0] = "number";
+
+englishvoc[208] = new Array();
+englishvoc[208][0] = "exact";
+
+englishvoc[209] = new Array();
+englishvoc[209][0] = "accurate";
+
+englishvoc[210] = new Array();
+englishvoc[210][0] = "precised";
+
+englishvoc[211] = new Array();
+englishvoc[211][0] = "specific";
+
+englishvoc[212] = new Array();
+englishvoc[212][0] = "often";
+
+englishvoc[213] = new Array();
+englishvoc[213][0] = "frequently";
+
+englishvoc[214] = new Array();
+englishvoc[214][0] = "commonly";
+
 // -----KALESTIA TRANSLATIONS -----
 
 kalestiavoc[0][1] = new Array(); //enim
