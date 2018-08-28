@@ -1639,7 +1639,9 @@
 /* Type */
 
 	body {
-		background-color: #935d8c;
+		background-image: url("images/cyan.png");
+		background-repeat: no-repeat;
+		background-size: cover;
 		color: rgba(255, 255, 255, 0.65);
 	}
 

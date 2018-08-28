@@ -23,4 +23,3 @@ function expfun(x,y,z) {
         clickeddiv.style.display = "none";
     }
 }
-
