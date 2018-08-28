@@ -4,8 +4,8 @@
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="../assets/css/main.css" />
-		<title>Kalestia - Vocabulary</title>
+		<link rel="stylesheet" href="../../assets/css/main.css" />
+		<title>Kalestia - Get started</title>
 	</head>
 	<body>
 
@@ -15,27 +15,38 @@
 				<!-- Header -->
 					<header id="header">
 						<p style="margin-bottom: 32px;">
-							<span class="logo" onClick="window.location = '..'" style="margin: 8px;"><img src="../images/logo.svg" alt="" /></span>
+							<span class="logo" onClick="window.location = '../..'" style="margin: 8px;"><img src="../../images/logo.svg" alt="" /></span>
 							<ul class="actions">
-								<li><a href="../vocabulary" class="button">Vocabulary</a></li>
-								<li><a href="../grammar" class="button">Grammar</a></li>
-								<li><a href="../translator" class="button">Translator</a></li>
+								<li><a href="../../vocabulary" class="button">Vocabulary</a></li>
+								<li><a href="../../grammar" class="button">Grammar</a></li>
+								<li><a href="../../translator" class="button">Translator</a></li>
 								<li><a onClick="unfinished()" class="button special">Get Started</a></li>
 							</ul>
 						</p>
-						<h1>Vocabulary</h1>
-						<p>Here you can find all the vocabulary currently existing in Kalestia.</p>
+						<h1>Vocabulary test</h1>
+						<p>Take a personalized test!</p>
+						<a href=".." class="button">Cancel test</a>
 					</header>
 
 				<!-- Nav -->
-					<nav id="nav">
-						<ul id="letternav">
-						</ul>
-					</nav>
 
 				<!-- Main -->
 					<div id="main">
-
+						<section class="main">
+							<div id="preparetest">
+								<h2>Test your vocabulary knowledge!</h2>
+								<p>Here you can create your own personal test selecting the exact units you would like to be tested of! Just select them and take your knowledge to a test.</p>
+								<p><a><i class="far fa-square"></i> Lemia 1</a><br>
+								<a><i class="far fa-square"></i> Lemia 2</a><br>
+								<a><i class="far fa-square"></i> Lemia 3</a><br>
+								<a><i class="far fa-square"></i> Lemia 4</a><br>
+								<a><i class="far fa-square"></i> Lemia 5</a></p>
+								<p><a class="button">Select all previous units of selected</a></p>
+								<p>Change the number of tasks:<br><input type="number" placeholder="Default: 16"></p>
+								<center><p><a class="button special">Create test</a></p>
+								<p id="erroroncreate"></p></center>
+							</div>
+						</h2>
 					</div>
 
 				<!-- Footer -->
@@ -56,14 +67,12 @@
 					</footer>
 
 			</div>
-		<script src="../assets/js/vocabulary.js"></script>
-		<script src="../assets/js/jquery.min.js"></script>
-		<script src="../assets/js/jquery.scrollex.min.js"></script>
-		<script src="../assets/js/jquery.scrolly.min.js"></script>
-		<script src="../assets/js/skel.min.js"></script>
-		<script src="../assets/js/util.js"></script>
-		<script src="../assets/js/main.js"></script>
-		<script src="../assets/js/vocabularypage.js"></script>
+		<script src="../../assets/js/jquery.min.js"></script>
+		<script src="../../assets/js/jquery.scrollex.min.js"></script>
+		<script src="../../assets/js/jquery.scrolly.min.js"></script>
+		<script src="../../assets/js/skel.min.js"></script>
+		<script src="../../assets/js/util.js"></script>
+		<script src="../../assets/js/main.js"></script>
 		<script>
 			function unfinished() {
 				alert("Since Kalestia is still in early progress, this part of the website is not ready yet. We are working hard on finalizing the website and promise you that something really big is happening here! Stay tuned!")
