@@ -24,14 +24,22 @@ function switchdir() {
 		document.getElementById("transdirh").innerHTML = "Translate from Kalestia to English."
 		transdir = 0;
 	}
-	starttrans();
+	tryifempty();
 }
 
 document.addEventListener("keyup", function(event) {
-	starttrans();
+	tryifempty();
 });
 
 // -----      TRANSLATOR      -----
+function tryifempty() {
+	if (document.getElementById("wordinput").value == "") {
+		document.getElementById("resultdiv").innerHTML = "";
+	} else {
+		starttrans();
+	}
+}
+
 function starttrans() {
 	if (transdir == 1) {
 		var i = englishvoc.length - 1;
