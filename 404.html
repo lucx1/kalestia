@@ -19,14 +19,15 @@ title: 404
     <title>Kalestia - A non-conventional language</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no">
     <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
     <link rel="stylesheet" href="https://lucx1.github.io/kalestia/assets/css/main.css" />
     <link rel="stylesheet" href="https://lucx1.github.io/kalestia/404/index.css">
     <script src="https://lucx1.github.io/kalestia/404/index.js"></script>
     <title>Kalestia - Website not found</title>
   </head>
-  <body id="t" class="offline">
+  <body>
 
     <!-- Wrapper -->
       <div id="wrapper">
@@ -57,6 +58,7 @@ title: 404
         <div id="main-content">
             <div class="icon icon-offline" alt=""></div>
         </div>
+        <tbody id="t" class="offline">
         <div id="offline-resources">
             <img id="offline-resources-1x" src="https://lucx1.github.io/kalestia/404/assets/default_100_percent/100-offline-sprite.png">
             <img id="offline-resources-2x" src="https://lucx1.github.io/kalestia/404/assets/default_200_percent/200-offline-sprite.png">
@@ -67,10 +69,9 @@ title: 404
             </template>
         </div>
     </div>
+  </tbody>
                   <h2>:(</h2>
-                  <p>Something went terribly wrong. Try checking the spelling of your requested URL or go back to the homepage.</p>
-                  <center><iframe width="420" height="315"src="https://www.youtube.com/embed/t3otBjVZzT0" style="margin: 16px;">
-                  </iframe></center>
+                  <p>Don't worry, typing mistakes can happen to all of us. Just try checking the spelling of your requested URL or go back to the homepage.</p>
                     <center><ul class="actions">
                       <li><a href="https://lucx1.github.io/kalestia/" class="button special">Return to homepage</a></li>
                     </ul></center>
@@ -109,6 +110,9 @@ title: 404
       function unfinished() {
         alert("Since Kalestia is still in early progress, this part of the website is not ready yet. We are working hard on finalizing the website and promise you that something really big is happening here! Stay tuned!")
       }
+      document.addEventListener("keydown", function(event) {
+          event.preventDefault();
+      });
     </script>
   </body>
 </html>
