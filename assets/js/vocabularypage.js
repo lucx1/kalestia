@@ -131,7 +131,7 @@ function builddictionary() {
 	document.getElementById("main").innerHTML = maindivvar;
     var head= document.getElementsByTagName('head')[0];
     var script= document.createElement('script');
-    script.src= 'assets/js/main.js';
+    script.src= '../assets/js/main.js';
     head.appendChild(script);
 }
 function switchdicdir() {
