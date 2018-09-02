@@ -642,10 +642,6 @@ kalestiavoc[i][0] = "zimena";
 i++;
 kalestiavoc[i] = new Array();
 kalestiavoc[i][0] = "zel";
-i++;
-kalestiavoc[i] = new Array();
-kalestiavoc[i][0] = "not translated yet";
-i++;
 // -----    ENGLISH WORDS     -----
 var englishvoc = new Array();
 i = 0;
@@ -1986,10 +1982,6 @@ englishvoc[i][0] = "formal";
 i++;
 englishvoc[i] = new Array();
 englishvoc[i][0] = "one";
-i++;
-englishvoc[i] = new Array();
-englishvoc[i][0] = "not translated yet";
-i++;
 // -----KALESTIA TRANSLATIONS -----
 i = 0;
 kalestiavoc[i][1] = new Array(); //enim
@@ -2165,745 +2157,741 @@ kalestiavoc[i][1][0] = 79;
 kalestiavoc[i][1][0] = 78;
 kalestiavoc[i][2] = 1;
 i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
-i++;
-kalestiavoc[i][1] = new Array(); //
-kalestiavoc[i][1][0] = 446;
-kalestiavoc[i][2] = 1;
+kalestiavoc[i][1] = new Array(); //faliuts
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //fanis
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //fek
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //felue
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //femies
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //feris
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //festian
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //fiama
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //fiems
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //fiminiat
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //finjun
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //fua
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //fueli
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //fujun
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //ful
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //ganie
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //gilia
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //halia
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //hasai
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //hea
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //hifikas
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //hinas
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //ia
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //ie
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //ifia
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //ifis
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //ifsnes
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //ikue
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //ilemia
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //ilira
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //ilis
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //ilya
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //in
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //ine
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //ini
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //inminas
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //inwelias
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //io
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //ize
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //jis
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //jilea
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //jies
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //juliat
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //jun
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //kaia
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //kaor
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //kapin
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //ke
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //kia
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //kins
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //kisimeas
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //kontakt
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //krei
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //kreini
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //krile
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //kua
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //kui
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //kue
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //kuems
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //kuie
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //kunt
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //kuosa
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //kusmi
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //kusye
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //lam
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //le
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //lefies
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //leidon
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //lem
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //lemia
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //les
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //letumas
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //lezia
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //li
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //liame
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //liata
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //lifinis
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //lilia
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //limias
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //linem
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //lintumas
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //lirams
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //losu
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //lufidem
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //lui
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //lunitia
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //mena
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //menas
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //menasutat
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //meshya
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //mibis
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //milen
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //miluns
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //mina
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //mint
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //minia
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //minor
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //misias
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //mismes
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //mizis
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //mua
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //mue
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //mui
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //mujun
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //neli
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //nelo
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //ni
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //nils
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //nim
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //nimanu
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //nitumas
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //niu
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //nizimena
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //numits
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //nuwias
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //o
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //oliat
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //omea
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //onra
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //piris
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //prizis
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //remun
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //resila
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //resma
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //resmas
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //rifena
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //rijes
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //rilas
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //rilya
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //risola
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //risya
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //rufia
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //run
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //runlui
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //samos
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //samoi
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //semia
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //selia
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //semiasamoi
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //seli
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //selin
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //shuzis
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //si
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //siafes
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //sisma
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //sismet
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //sismia
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //slodrem
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //somdes
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //somlis
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //suales
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //suilefaliuts
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //sumi
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //taelek
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //talet
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //talia
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //talor
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //tan
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //tano
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //tekias
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //tekyem
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //telefon
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //temia
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //tialis
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //tias
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //tins
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //tis
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //tlia
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //tumas
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //tukorias
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //umeno
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //uria
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //ustia
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //uzia
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //wels
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //wezua
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //wimen
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //ya
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //yesua
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //yumea
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //ziala
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //zila
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //zimena
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
+i++;
+kalestiavoc[i][1] = new Array(); //zel
+kalestiavoc[i][1][0] = ;
+kalestiavoc[i][2] = ;
 // ----- ENGLISH TRANSLATIONS -----
 i = 0;
 englishvoc[i][1] = new Array(); //beautiful
@@ -3225,1474 +3213,1470 @@ englishvoc[i][1] = new Array(); //must
 englishvoc[i][1][0] = 29;
 englishvoc[i][2] = 1;
 i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
-i++;
-englishvoc[i][1] = new Array(); //
-englishvoc[i][1][0] = 214;
-englishvoc[i][2] = 1;
+englishvoc[i][1] = new Array(); //probable
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //speak
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //talk
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //discourse
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //try
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //attempt
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //have a try
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //tempt
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //four
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //friend
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //pal
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //mate
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //fellow
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //cuddle
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //snuggle
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //nestle
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //eat
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //dine
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //eat up
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //great
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //incredible
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //fantastic
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //amazing
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //awesome
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //wonderful
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //gorgeos
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //river
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //learn
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //pick up
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //learn off
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //incredible
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //stunning
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //amazing
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //a couple of
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //supurb
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //marvellous
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //gorgeos
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //great
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //fantastic
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //admirable
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //tomorrow
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //nobody
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //no one
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //text
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //script
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //lettering
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //caption
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //essay
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //yesterday
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //bed
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //soup
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //broth
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //midday
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //noon
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //we
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //us
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //please
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //live
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //dwell
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //reside
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //stay
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //like
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //love
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //town
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //amour
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //adore
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //hello
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //hi
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //hey
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //if
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //in case
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //which
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //sign in
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //login
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //activate
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //enable
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //turn on
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //switch on
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //hour
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //only
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //just
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //merely
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //solely
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //simply
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //language
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //tongue
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //rule
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //regulation
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //policy
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //day
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //thirty
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //athirst
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //blade
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //knife
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //razor
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //here
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //kind of
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //somewhat
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //rather
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //slightly
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //fairly
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //nord
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //confirm
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //validate
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //verify
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //contact
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //wrong
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //incorrect
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //mistaken
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //false
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //mistake
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //error
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //ill
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //sick
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //diseased
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //unwell
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //how
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //who
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //what
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //think
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //believe
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //suppose
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //assume
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //feel
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //time
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //hundred
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //code
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //key
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //number
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //exact
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //accurate
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //precised
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //specific
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //often
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //frequently
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //commonly
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //last
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //final
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //ten
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //enter
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //input
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //register
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //log
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //key
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //key in
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //bye
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //unit
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //integrity
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //make
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //remind
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //recall
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //bring back
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //call to mind
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //be reminiscent
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //period
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //like
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //so
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //then
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //afterwards
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //thereafter
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //back then
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //at that time
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //you are welcome
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //continue
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //proceed
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //carry on
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //go on
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //keep up
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //keep
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //resume
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //real
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //realistic
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //true
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //actual
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //genuine
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //sincere
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //hug
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //embrace
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //good
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //fine
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //remember
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //obvious
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //evident
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //manifest
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //blatant
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //clear
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //constantly
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //continuously
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //continually
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //permanently
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //steadily
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //always
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //sentence
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //ten thousand
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //human
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //person
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //mankind
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //humanity
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //food
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //meal
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //foodstuff
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //hope
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //new
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //recent
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //write
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //write in
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //write out
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //compile
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //minute
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //thousand
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //hungry
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //might
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //could
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //listen
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //hark
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //understand
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //comprehend
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //grasp
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //this
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //that
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //the same
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //today
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //three
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //nine
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //a bit
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //little
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //slightly
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //some
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //tell
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //now
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //presently
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //never
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //forget
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //unlearn
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //lose
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //no
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //not
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //informal
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //have to
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //sleep
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //be asleep
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //slumber
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //you
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //evening
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //eve
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //bad
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //poor
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //evil
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //terrible
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //every
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //any
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //be supposed to
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //likely
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //plausible
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //presumable
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //hate
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //hate
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //loathe
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //detest
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //aborminate
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //abhor
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //instrument
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //device
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //run
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //read
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //glean
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //most
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //city
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //left
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //ocean
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //sea
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //front
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //frontage
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //face
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //forenoon
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //morning
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //know
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //know of
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //be acquainted with
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //knowledge
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //word
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //term
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //vocabulary
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //vocabulary range
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //vocabulary knowledge
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //six
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //seven
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //two
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //synchronize
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //dub
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //few
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //least
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //fewest
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //less
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //fewer
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //lesser
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //be bored
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //sound
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //hear
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //switch
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //change
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //exchange
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //shift
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //translate
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //maybe
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //perhaps
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //possible
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //perchance
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //peradventure
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //thank you
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //thanks
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //more
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //many
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //much
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //a lot of
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //lots of
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //and
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //but
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //however
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //let
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //allow
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //difficult
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //hard
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //tough
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //challenging
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //be able
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //be capable
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //thing
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //object
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //topic
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //item
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //article
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //matter
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //case
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //stuff
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //memorize
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //bring
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //carry
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //yield
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //bring with one
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //bring along
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //invalid
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //void
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //night
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //stupid
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //silly
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //dumb
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //foolish
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //dull
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //daft
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //doopey
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //idiotic
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //lack
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //be missing
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //be absent
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //mountain
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //correct
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //right
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //so
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //thus
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //account
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //tall
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //high
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //big
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //wide
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //formal
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;
+i++;
+englishvoc[i][1] = new Array(); //one
+englishvoc[i][1][0] = ;
+englishvoc[i][2] = ;

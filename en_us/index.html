@@ -34,9 +34,9 @@
 						<h1>Kalestia</h1>
 						<p>A new, non-conventional and free-form language made with ❤️.</p>
 						<ul class="actions">
-							<li><a href="vocabulary" class="button">Vocabulary</a></li>
+							<li><a onClick="rebuilding()" class="button">Vocabulary</a></li>
 							<li><a href="grammar" class="button">Grammar</a></li>
-							<li><a href="translator" class="button">Translator</a></li>
+							<li><a onClick="rebuilding()" class="button">Translator</a></li>
 							<li><a onClick="unfinished()" class="button special">Get Started</a></li>
 						</ul>
 					</header>
@@ -66,7 +66,7 @@
 											<li><a href="#learning" class="button">Learn More</a></li>
 										</ul>
 									</div>
-									<span class="image"><img src="../images/pic01.jpg" alt="" /></span>
+									<span class="image"><img src="../images/logo.png" alt="" /></span>
 								</div>
 							</section>
 
@@ -97,21 +97,17 @@
 									to welcome you to the magic of Kalestia.</p>
 								</header>
 								<ul class="statistics">
-									<li class="style1">
-										<span class="icon fa-quote-left"></span>
-										<strong><text id="wordcount"></text></strong> Kalestian words
-									</li>
 									<li class="style2">
-										<span class="icon fa-language"></span>
-										<strong><text id="ewordcount"></text></strong> English translations
+										<span class="icon fa-quote-left"></span>
+										<strong><!---<text id="wordcount"></text>--->---</strong> Kalestian words
 									</li>
 									<li class="style3">
-										<span class="icon fa-graduation-cap"></span>
-										<strong>---</strong> Active learners
+										<span class="icon fa-language"></span>
+										<strong><!---<text id="ewordcount"></text>--->---</strong> English translations
 									</li>
 									<li class="style4">
-										<span class="icon fa-comments"></span>
-										<strong>---</strong> Speakers
+										<span class="icon fa-graduation-cap"></span>
+										<strong>---</strong> Active learners
 									</li>
 								</ul>
 								<p class="content">Since all of our resources are free to use, there have been a lot of people interested and we highly encourage you to look into it, if you're interested. There's nothing in this world like Kalestia. It's something brand-new and interesting. Made with love, by all of us. Everyone can add to Kalestia so if you'd like to contribute, feel free to <a href="https://t.me/Kalestia">join our Telegram community</a> and make your suggestions.</p>
@@ -171,6 +167,9 @@
 				document.getElementById("ewordcount").innerHTML = ewordcountnum;
 				function unfinished() {
 					alert("Since Kalestia is still in early progress, this part of the website is not ready yet. We are working hard on finalizing the website and promise you that something really big is happening here! Stay tuned!")
+				}
+				function rebuilding() {
+					alert("This part of the website is currently under construction to add more vocabulary. It will be accessible again soon, so stay tuned!")
 				}
 			</script>
 
