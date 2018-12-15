@@ -642,6 +642,7 @@ kalestiavoc[i][0] = "zimena";
 i++;
 kalestiavoc[i] = new Array();
 kalestiavoc[i][0] = "zel";
+*/
 // -----    ENGLISH WORDS     -----
 var englishvoc = new Array();
 i = 0;
@@ -743,6 +744,7 @@ englishvoc[i][0] = "symbolize";
 i++;
 englishvoc[i] = new Array();
 englishvoc[i][0] = "be";
+/*
 i++;
 englishvoc[i] = new Array();
 englishvoc[i][0] = "walk";
@@ -2157,6 +2159,7 @@ kalestiavoc[i][1] = new Array(); //ezias
 kalestiavoc[i][1][0] = 79;
 kalestiavoc[i][1][0] = 78;
 kalestiavoc[i][2] = 1;
+/*
 i++;
 kalestiavoc[i][1] = new Array(); //faliuts
 kalestiavoc[i][1][0] = ;
@@ -2894,6 +2897,7 @@ kalestiavoc[i][1] = new Array(); //zel
 kalestiavoc[i][1][0] = ;
 kalestiavoc[i][2] = ;
 // ----- ENGLISH TRANSLATIONS -----
+*/
 i = 0;
 englishvoc[i][1] = new Array(); //beautiful
 englishvoc[i][1][0] = 0;
@@ -3210,10 +3214,10 @@ englishvoc[i][1] = new Array(); //do
 englishvoc[i][1][0] = 28;
 englishvoc[i][2] = 1;
 i++;
-/*
 englishvoc[i][1] = new Array(); //must
 englishvoc[i][1][0] = 29;
 englishvoc[i][2] = 1;
+/*
 i++;
 englishvoc[i][1] = new Array(); //probable
 englishvoc[i][1][0] = ;
