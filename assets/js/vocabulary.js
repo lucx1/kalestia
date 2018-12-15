@@ -87,9 +87,9 @@ kalestiavoc[i][0] = "est";
 i++;
 kalestiavoc[i] = new Array();
 kalestiavoc[i][0] = "es";
-i++;/*
+i++;
 kalestiavoc[i] = new Array();
-kalestiavoc[i][0] = "ezias";
+kalestiavoc[i][0] = "ezias";/*
 i++;
 kalestiavoc[i] = new Array();
 kalestiavoc[i][0] = "faliuts";
@@ -744,7 +744,6 @@ englishvoc[i][0] = "symbolize";
 i++;
 englishvoc[i] = new Array();
 englishvoc[i][0] = "be";
-/*
 i++;
 englishvoc[i] = new Array();
 englishvoc[i][0] = "walk";
@@ -883,6 +882,7 @@ englishvoc[i][0] = "do";
 i++;
 englishvoc[i] = new Array();
 englishvoc[i][0] = "must";
+/*
 i++;
 englishvoc[i] = new Array();
 englishvoc[i][0] = "probable";
