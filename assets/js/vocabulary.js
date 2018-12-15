@@ -87,7 +87,7 @@ kalestiavoc[i][0] = "est";
 i++;
 kalestiavoc[i] = new Array();
 kalestiavoc[i][0] = "es";
-i++;
+i++;/*
 kalestiavoc[i] = new Array();
 kalestiavoc[i][0] = "ezias";
 i++;
@@ -1983,6 +1983,7 @@ i++;
 englishvoc[i] = new Array();
 englishvoc[i][0] = "one";
 // -----KALESTIA TRANSLATIONS -----
+*/
 i = 0;
 kalestiavoc[i][1] = new Array(); //enim
 kalestiavoc[i][1][0] = 2;
@@ -3209,6 +3210,7 @@ englishvoc[i][1] = new Array(); //do
 englishvoc[i][1][0] = 28;
 englishvoc[i][2] = 1;
 i++;
+/*
 englishvoc[i][1] = new Array(); //must
 englishvoc[i][1][0] = 29;
 englishvoc[i][2] = 1;
