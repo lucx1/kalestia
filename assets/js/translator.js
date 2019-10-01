@@ -24,6 +24,7 @@ function switchdir() {
 		document.getElementById("transdirh").innerHTML = "Translate from Kalestia to English."
 		transdir = 0;
 	}
+	document.getElementById("transdirh").innerHTML = "Translator is currently broken. It will be fixed eventually! Sorry about that. :("
 	tryifempty();
 }
 
