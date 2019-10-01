@@ -3,11 +3,11 @@ var kalestiasort = kalestiavoc.slice(0);
 englishsort.sort((a,b)=>a[0].localeCompare(b[0]));
 kalestiasort.sort((a,b)=>a[0].localeCompare(b[0]));
 var diclans = new Array();
-var dicdir = 0;
+var dicdir = 1;
 switchdicdir();
 function builddictionary() {
 	document.getElementById("letternav").innerHTML = "";
-	var maindivvar = "<section class='main'>Dictionary from " + diclans[0] + " to " + diclans[1] + " <input type='button' value='Switch direction' onClick='switchdicdir()' class='button special'></section>";
+	var maindivvar = "<section class='main'>Dictionary from " + diclans[0] + " to " + diclans[1] + " <input type='button' value='Switch direction' onClick='switchdicdir()' class='button special' disabled></section>";
 	var i = 0;
 	var firstchar = 97;
 	var wnum = 0;

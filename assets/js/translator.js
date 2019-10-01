@@ -14,7 +14,7 @@ VALUES OF WORD TYPES:
 
 */
 // ----- PREPARING TRANSLATOR -----
-var transdir = 0;
+var transdir = 1;
 switchdir();
 function switchdir() {
 	if (transdir == 0) {
