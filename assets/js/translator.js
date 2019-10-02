@@ -14,7 +14,7 @@ VALUES OF WORD TYPES:
 
 */
 // ----- PREPARING TRANSLATOR -----
-var transdir = 1;
+var transdir = 0;
 switchdir();
 function switchdir() {
 	if (transdir == 0) {
@@ -24,7 +24,6 @@ function switchdir() {
 		document.getElementById("transdirh").innerHTML = "Translate from Kalestia to English."
 		transdir = 0;
 	}
-	document.getElementById("transdirh").innerHTML = "Translator is currently broken. It will be fixed eventually! Sorry about that. :("
 	tryifempty();
 }
 
