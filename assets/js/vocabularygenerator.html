@@ -19,6 +19,7 @@ var counterx3 = 0;
 var counterx4 = 0;
 var translations = new Array();
 var j = 0;
+var enwtype = 0;
 var writer = 'var kalestiavoc = new Array();<br>var englishvoc = new Array();<br>var i = 0;<br>var j = 0;<br>';
 do {
 	do {
@@ -87,6 +88,7 @@ do {
 		do {
 			if (kalestiavoc[counterx2][1][counterx3] == counterx) {
 				writer = writer + 'englishvoc[i][1][' + counterx4 + '] = ' + counterx2 + ';<br>';
+				enwtype = kalestiavoc[counterx2][2];
 				counterx4++;
 			}
 			counterx3++;
@@ -94,7 +96,7 @@ do {
 		counterx3 = 0;
 		counterx2++;
 	} while (counterx2 < kalestiavoc.length);
-	writer = writer + 'englishvoc[i][2] = 0;<br>i++;<br>';
+	writer = writer + 'englishvoc[i][2] = ' + enwtype + ';<br>i++;<br>';
 	counterx2 = 0;
 	counterx4 = 0;
 	counterx++;
