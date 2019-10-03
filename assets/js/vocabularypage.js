@@ -18,7 +18,7 @@ function builddictionary() {
 	if (dicdir == 1) {
 		do {
 			if (englishsort[i][0].charAt(0) == String.fromCharCode(firstchar) || englishsort[i][0].charAt(0) == String.fromCharCode(firstchar - 32)) {
-				maindivvar = maindivvar + "<section id='letter" + String.fromCharCode(firstchar) + "' class='main'><h2>" + String.fromCharCode(firstchar - 32) + "</h2><table><tr style='text-align: center;'><td>" + diclans[0] + "</td><td>Word type</td><td>" + diclans[1] + "</td></tr>";
+				maindivvar = maindivvar + "<section id='letter" + String.fromCharCode(firstchar) + "' class='main'><h2>" + String.fromCharCode(firstchar - 32) + "</h2><table><tr style='font-weight: bold;'><td>" + diclans[0] + "</td><td>Word type</td><td>" + diclans[1] + "</td></tr>";
 				document.getElementById("letternav").innerHTML = document.getElementById("letternav").innerHTML + "<li><a href='#letter" + String.fromCharCode(firstchar) + "'>" + String.fromCharCode(firstchar - 32) + "</a></li>";
 				wentthrough = true;
 				do {
@@ -74,7 +74,7 @@ function builddictionary() {
 	} else {
 		do {
 			if (kalestiasort[i][0].charAt(0) == String.fromCharCode(firstchar) || kalestiasort[i][0].charAt(0) == String.fromCharCode(firstchar - 32)) {
-				maindivvar = maindivvar + "<section id='letter" + String.fromCharCode(firstchar) + "' class='main'><h2>" + String.fromCharCode(firstchar - 32) + "</h2><table><tr style='text-align: center;'><td>" + diclans[0] + "</td><td>Word type</td><td>" + diclans[1] + "</td></tr>";
+				maindivvar = maindivvar + "<section id='letter" + String.fromCharCode(firstchar) + "' class='main'><h2>" + String.fromCharCode(firstchar - 32) + "</h2><table><tr style='font-weight: bold;'><td>" + diclans[0] + "</td><td>Word type</td><td>" + diclans[1] + "</td></tr>";
 				document.getElementById("letternav").innerHTML = document.getElementById("letternav").innerHTML + "<li><a href='#letter" + String.fromCharCode(firstchar) + "'>" + String.fromCharCode(firstchar - 32) + "</a></li>";
 				wentthrough = true;
 				do {
