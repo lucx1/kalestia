@@ -41,10 +41,21 @@ function tryifempty() {
 }
 
 function starttrans() {
+	var userinput = document.getElementById("wordinput").value;
+	if (userinput.charAt(userinput.length - 1) == ' ') {
+		do {
+			userinput = userinput.slice(0, userinput.length - 1);
+		} while (userinput.charAt(userinput.length - 1) == ' ')
+	}
+	if (userinput.charAt(0) == ' ') {
+		do {
+			userinput = userinput.slice(1, userinput.length);
+		} while (userinput.charAt(0) == ' ')
+	}
 	if (transdir == 1) {
 		var i = englishvoc.length - 1;
 		do {
-			if (englishvoc[i][0] == document.getElementById("wordinput").value) {
+			if (englishvoc[i][0] == userinput) {
 				var submitnum = i;
 				i = -2;
 				var wordtype = "none";
@@ -104,7 +115,7 @@ function starttrans() {
 	if (transdir == 0) {
 		var i = kalestiavoc.length - 1;
 		do {
-			if (kalestiavoc[i][0] == document.getElementById("wordinput").value) {
+			if (kalestiavoc[i][0] == userinput) {
 				var submitnum = i;
 				i = -2;
 				var wordtype = "none";
