@@ -88,7 +88,7 @@
 									</ol>
 								</p></section>
 								<p style='background-color: #202020; text-align: center;'>
-									<img src="../../images/whatsapp_kalestia.png" width="25%">
+									<img src="../../images/whatsapp_kalestia.png" width="25%" id="wa_kal" onClick="wa_kal_fun()">
 								</p>
 
 					</div>
@@ -122,6 +122,16 @@
 		<script src="../../assets/js/util.js"></script>
 		<script src="../../assets/js/main.js"></script>
 		<script>
+			var wa_kal_var = false;
+			function wa_kal_fun() {
+				if (wa_kal_var) {
+					document.getElementById('wa_kal').setAttribute("width", "25%");
+					wa_kal_var = false;
+				} else {
+					document.getElementById('wa_kal').setAttribute("width", "75%");
+					wa_kal_var = true;
+				}
+			}
 			function unfinished() {
 				alert("Since Kalestia is still in early progress, this part of the website is not ready yet. We are working hard on finalizing the website and promise you that something really big is happening here! Stay tuned!")
 			}
