@@ -103,7 +103,7 @@ function starttrans() {
 						revtransnum--;
 					} while (revtransnum > -1);
 					revtransvar = kalestiavoc[englishvoc[submitnum][1][translations]][0];
-					resultdivvar = resultdivvar + "<p><a onClick='revtransfun(\"" + revtransvar + "\")'>" + revtransvar + "</a>" + " - " + revtrans + "</p>";
+					resultdivvar = resultdivvar + "<p><strong><a onClick='revtransfun(\"" + revtransvar + "\")'>" + revtransvar + "</a></strong>" + " - " + revtrans + "</p>";
 					translations--;
 				} while (translations > -1);
 				document.getElementById("resultdiv").innerHTML = resultdivvar
@@ -161,7 +161,7 @@ function starttrans() {
 						revtransnum--;
 					} while (revtransnum > -1);
 					revtransvar = englishvoc[kalestiavoc[submitnum][1][translations]][0];
-					resultdivvar = resultdivvar + "<p><a onClick='revtransfun(\"" + revtransvar + "\")'>" + revtransvar + "</a>" + " - " + revtrans + "</p>";
+					resultdivvar = resultdivvar + "<p><strong><a onClick='revtransfun(\"" + revtransvar + "\")'>" + revtransvar + "</a></strong>" + " - " + revtrans + "</p>";
 					translations--;
 				} while (translations > -1);
 				document.getElementById("resultdiv").innerHTML = resultdivvar
@@ -224,9 +224,9 @@ function starttrans() {
 					var newi = 0;
 					do {
 						if (newi == 0) {
-							var result1 = englishvoc[kalestiavoc[transmain][1][0]][0];
+							var result1 = '<a onClick=\'revtransfun("' + englishvoc[kalestiavoc[transmain][1][0]][0] + '")\'>' + englishvoc[kalestiavoc[transmain][1][0]][0] + '</a>';
 						} else {
-							result1 = result1 + ', ' + englishvoc[kalestiavoc[transmain][1][newi]][0];
+							result1 = result1 + ', <a onClick=\'revtransfun("' + englishvoc[kalestiavoc[transmain][1][newi]][0] + '")\'>' + englishvoc[kalestiavoc[transmain][1][newi]][0] + '</a>';
 						}
 						newi++;
 					} while (newi < kalestiavoc[transmain][1].length);
@@ -267,18 +267,18 @@ function starttrans() {
 					if (tense == 0) {
 						result3 = '<strong>Literal translations for past tense are not supported yet'
 					}
-					document.getElementById("resultdiv").innerHTML = '<p><strong>' + userinput + '</strong> is a conjugated form of <strong>' + kalestiavoc[transmain][0] + '</strong>, meaning <strong>' + result1 + '</strong>.</p><p>' + result2 + '</strong>.</p><p>' + result3 + '</strong>.</p>';
+					document.getElementById("resultdiv").innerHTML = '<p><strong>' + userinput + '</strong> is a conjugated form of <strong><a onClick=\'retransfun("' + kalestiavoc[transmain][0] + '")\'>' + kalestiavoc[transmain][0] + '</a></strong>, meaning <strong>' + result1 + '</strong>.</p><p>' + result2 + '</strong>.</p><p>' + result3 + '</strong>.</p>';
 				} else if (differentform == 2) {
 					var newi = 0;
 					do {
 						if (newi == 0) {
-							var result1 = englishvoc[kalestiavoc[transmain][1][0]][0];
+							var result1 = '<a onClick=\'revtransfun("' + englishvoc[kalestiavoc[transmain][1][0]][0] + '")\'>' + englishvoc[kalestiavoc[transmain][1][0]][0] + '</a>';
 						} else {
-							result1 = result1 + ', ' + englishvoc[kalestiavoc[transmain][1][newi]][0];
+							result1 = result1 + ', <a onClick=\'revtransfun("' + englishvoc[kalestiavoc[transmain][1][newi]][0] + '")\'>' + englishvoc[kalestiavoc[transmain][1][newi]][0] + '</a>';
 						}
 						newi++;
 					} while (newi < kalestiavoc[transmain][1].length);
-					document.getElementById("resultdiv").innerHTML = '<p><strong>' + userinput + '</strong> is the adverb form of <strong>' + kalestiavoc[transmain][0] + '</strong>, meaning <strong>' + result1 + '</strong>.</p><p><strong>Literal translations for adverb forms of adjectives are not supported yet</strong>.</p>'
+					document.getElementById("resultdiv").innerHTML = '<p><strong>' + userinput + '</strong> is the adverb form of <strong><a onClick=\'retransfun("' + kalestiavoc[transmain][0] + '")\'>' + kalestiavoc[transmain][0] + '</a></strong>, meaning <strong>' + result1 + '</strong>.</p><p><strong>Literal translations for adverb forms of adjectives are not supported yet</strong>.</p>'
 				}
 			} else {
 				document.getElementById("resultdiv").innerHTML = "<p>There is no English translation matching your input. Please ensure that you typed your word correctly.</p><p>Note: The translator does not support sentences yet."
