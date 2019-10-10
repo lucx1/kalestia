@@ -657,7 +657,7 @@ kalestiavoc[i][1][0] = 84;
 kalestiavoc[i][2] = 1;
 i++;
 kalestiavoc[i] = new Array();
-kalestiavoc[i][0] = "ilya";
+kalestiavoc[i][0] = "ilia";
 englishvoc[j] = new Array();
 englishvoc[j][0] = "hello";
 j++;
