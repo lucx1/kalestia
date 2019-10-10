@@ -209,7 +209,7 @@ function starttrans() {
 					i--;
 				} while (i > -1);
 			}
-			if (translated == true) {
+			if (translated == true && kalestiavoc[transmain][2] == 1) {
 				if (differentform == 1) {
 					var newi = 0;
 					do {
