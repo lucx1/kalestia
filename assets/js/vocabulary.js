@@ -2721,7 +2721,7 @@ englishvoc[j] = new Array();
 englishvoc[j][0] = "weed";
 j++;
 englishvoc[j] = new Array();
-englishvoc[j][0] = "hamp";
+englishvoc[j][0] = "hemp";
 j++;
 kalestiavoc[i][1] = new Array();
 kalestiavoc[i][1][0] = 321;
