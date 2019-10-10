@@ -34,7 +34,7 @@ document.addEventListener("keyup", function(event) {
 // -----      TRANSLATOR      -----
 function tryifempty() {
 	if (document.getElementById("wordinput").value == "") {
-		document.getElementById("resultdiv").innerHTML = "";
+		document.getElementById("resultdiv").innerHTML = "<p>Start translating by typing a word.</p><p>Note: The translator does not support sentences yet.";
 	} else {
 		starttrans();
 	}
@@ -108,7 +108,7 @@ function starttrans() {
 			}
 			i--;
 			if (i == -1) {
-				document.getElementById("resultdiv").innerHTML = "There is no Kalestian translation matching your input. Please ensure that you typed your word correctly. If this is the case, a translation might not yet be added, so feel free to suggest one!"
+				document.getElementById("resultdiv").innerHTML = "<p>There is no Kalestian translation matching your input. Please ensure that you typed your word correctly. If this is the case, a translation might not yet be added, so feel free to suggest one!</p><p>Note: The translator does not support sentences yet."
 			}
 		} while (i > -1);
 	}
@@ -166,7 +166,7 @@ function starttrans() {
 			}
 			i--;
 			if (i == -1) {
-				document.getElementById("resultdiv").innerHTML = "There is no English translation matching your input. Please ensure that you typed your word correctly."
+				document.getElementById("resultdiv").innerHTML = "<p>There is no English translation matching your input. Please ensure that you typed your word correctly.</p><p>Note: The translator does not support sentences yet."
 			}
 		} while (i > -1);
 	}
