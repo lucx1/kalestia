@@ -15,6 +15,8 @@ VALUES OF WORD TYPES:
 */
 // ----- PREPARING TRANSLATOR -----
 var transdir = 0;
+var translated = false;
+var differentform = 0;
 switchdir();
 function switchdir() {
 	if (transdir == 0) {
@@ -163,13 +165,153 @@ function starttrans() {
 					translations--;
 				} while (translations > -1);
 				document.getElementById("resultdiv").innerHTML = resultdivvar
+				translated = true;
 			}
 			i--;
-			if (i == -1) {
+		} while (i > -1);
+		if (translated == false) {
+			var next1 = 0;
+			if (userinput.charAt(userinput.length - 1) == 'a' || userinput.charAt(userinput.length - 1) == 'o' || userinput.charAt(userinput.length - 1) == 'e') {
+				if (userinput.charAt(userinput.length - 1) == 'a') {
+					var person = 0;
+				} else if (userinput.charAt(userinput.length - 1) == 'o') {
+					var person = 1;
+				} else if (userinput.charAt(userinput.length - 1) == 'e') {
+					var person = 2
+				}
+				if (userinput.charAt(userinput.length - 2) == 'i') {
+					nextvar = 2;
+					var plural = true;
+				} else {
+					nextvar = 1;
+					var plural = false;
+				}
+				i = kalestiavoc.length - 1;
+				do {
+					if (kalestiavoc[i][0] == userinput.slice(0, userinput.length - nextvar)) {
+						translated = true;
+						var tense = 1
+						differentform = 1;
+						var transmain = i
+					} else if (kalestiavoc[i][0] == userinput.slice(0, userinput.length - nextvar - 1) + 's') {
+						if (userinput.charAt(userinput.length - nextvar - 1) == 'k') {
+							translated = true;
+							var tense = 2;
+							differentform = 1;
+							var transmain = i;
+						} else if (userinput.charAt(userinput.length - nextvar - 1) == 't') {
+							translated = true;
+							var tense = 0;
+							differentform = 1
+							var transmain = i;
+						}
+					}
+					i--;
+				} while (i > -1);
+			}
+			if (translated == true) {
+				if (differentform == 1) {
+					var newi = 0;
+					do {
+						if (newi == 0) {
+							var result1 = englishvoc[kalestiavoc[transmain][1][0]][0];
+						} else {
+							result1 = result1 + ', ' + englishvoc[kalestiavoc[transmain][1][newi]][0];
+						}
+						newi++;
+					} while (newi < kalestiavoc[transmain][1].length);
+					var result2 = 'The form it is standing in is <strong>Indicative ';
+					if (tense == 0) {
+						result2 = result2 + 'Past, ';
+					} else if (tense == 1) {
+						result2 = result2 + 'Present, ';
+					} else if (tense == 2) {
+						result2 = result2 + 'Future, ';
+					}
+					if (person == 0) {
+						result2 = result2 + '1st person ';
+					} else if (person == 1) {
+						result2 = result2 + '2nd person ';
+					} else if (person == 2) {
+						result2 = result2 + '3rd person ';
+					}
+					if (plural == true) {
+						result2 = result2 + 'Plural'
+					} else {
+						result2 = result2 + 'Singular'
+					}
+					if (kalestiavoc[transmain][1].length == 1) {
+						var result3 = 'A possible literal translation to English would be <strong>' + getresult4(englishvoc[kalestiavoc[transmain][1][0]][0], plural, person, tense);
+					} else {
+						var newj = 0;
+						var result3 = 'Possible literal translations to English would be <strong>';
+						do {
+							if (newj == 0) {
+								result3 = result3 + getresult4(englishvoc[kalestiavoc[transmain][1][0]][0], plural, person, tense);
+							} else {
+								result3 = result3 + ', ' + getresult4(englishvoc[kalestiavoc[transmain][1][newj]][0], plural, person, tense);
+							}
+							newj++;
+						} while (newj < kalestiavoc[transmain][1].length);
+					}
+					if (tense == 0) {
+						result3 = '<strong>Literal translations for past tense are not supported yet'
+					}
+					document.getElementById("resultdiv").innerHTML = '<p><strong>' + userinput + '</strong> is a conjugated form of <strong>' + kalestiavoc[transmain][0] + '</strong>, meaning <strong>' + result1 + '</strong>.</p><p>' + result2 + '</strong>.</p><p>' + result3 + '</strong>.</p>';
+				}
+			} else {
 				document.getElementById("resultdiv").innerHTML = "<p>There is no English translation matching your input. Please ensure that you typed your word correctly.</p><p>Note: The translator does not support sentences yet."
 			}
-		} while (i > -1);
+		}
 	}
+	translated = false;
+	differentform  = 0;
+}
+function getresult4(x, plural, person, tense) {
+	var result4 = '';
+	if (x == 'be' && tense == 1) {
+		if (plural == false) {
+			if (person == 0) {
+				x = 'am';
+			} else if (person == 1) {
+				x = 'are';
+			} else if (person == 2) {
+				x = 'i'
+			}
+		} else {
+			x = 'are';
+		}
+	}
+	if (plural == false) {
+		if (person == 0) {
+			result4 = result4 + 'I ';
+		} else if (person == 1) {
+			result4 = result4 + 'you ';
+		} else if (person == 2) {
+			result4 = result4 + 'he/she/it '
+		}
+	} else {
+		if (person == 0) {
+			result4 = result4 + 'we ';
+		} else if (person == 1) {
+			result4 = result4 + 'you ';
+		} else if (person == 2) {
+			result4 = result4 + 'they '
+		}
+	}
+	if (tense == 1) {
+		result4 = result4 + x;
+	} else if (tense == 2) {
+		result4 = result4 + 'will ' + x;
+	}
+	if (plural == false && person == 2 && tense == 1) {
+		if (x == 'go' || x == 'do') {
+			result4 = result4 + 'es';
+		} else {
+			result4 = result4 + 's';
+		}
+	}
+	return(result4);
 }
 function retransfun(revsubmit) {
 	document.getElementById("wordinput").value = revsubmit;
