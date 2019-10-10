@@ -246,9 +246,9 @@ function starttrans() {
 						result2 = result2 + '3rd person ';
 					}
 					if (plural == true) {
-						result2 = result2 + 'Plural'
+						result2 = result2 + 'Plural Active'
 					} else {
-						result2 = result2 + 'Singular'
+						result2 = result2 + 'Singular Active'
 					}
 					if (kalestiavoc[transmain][1].length == 1) {
 						var result3 = 'A possible literal translation to English would be <strong>' + getresult4(englishvoc[kalestiavoc[transmain][1][0]][0], plural, person, tense);
