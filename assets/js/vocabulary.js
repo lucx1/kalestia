@@ -2439,7 +2439,7 @@ kalestiavoc[i][1][0] = 288;
 kalestiavoc[i][2] = 0;
 i++;
 kalestiavoc[i] = new Array();
-kalestiavoc[i][0] = "ziala";
+kalestiavoc[i][0] = "ziale";
 englishvoc[j] = new Array();
 englishvoc[j][0] = "shark";
 j++;
