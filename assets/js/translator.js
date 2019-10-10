@@ -170,7 +170,6 @@ function starttrans() {
 			i--;
 		} while (i > -1);
 		if (translated == false) {
-			var next1 = 0;
 			if (userinput.charAt(userinput.length - 1) == 'a' || userinput.charAt(userinput.length - 1) == 'o' || userinput.charAt(userinput.length - 1) == 'e') {
 				if (userinput.charAt(userinput.length - 1) == 'a') {
 					var person = 0;
@@ -188,12 +187,12 @@ function starttrans() {
 				}
 				i = kalestiavoc.length - 1;
 				do {
-					if (kalestiavoc[i][0] == userinput.slice(0, userinput.length - nextvar)) {
+					if (kalestiavoc[i][0] == userinput.slice(0, userinput.length - nextvar) && kalestiavoc[i][2] == 1) {
 						translated = true;
 						var tense = 1
 						differentform = 1;
 						var transmain = i
-					} else if (kalestiavoc[i][0] == userinput.slice(0, userinput.length - nextvar - 1) + 's') {
+					} else if (kalestiavoc[i][0] == userinput.slice(0, userinput.length - nextvar - 1) + 's' && kalestiavoc[i][2] == 1) {
 						if (userinput.charAt(userinput.length - nextvar - 1) == 'k') {
 							translated = true;
 							var tense = 2;
@@ -209,7 +208,18 @@ function starttrans() {
 					i--;
 				} while (i > -1);
 			}
-			if (translated == true && kalestiavoc[transmain][2] == 1) {
+			if (userinput.charAt(userinput.length - 3) == 'i' && userinput.charAt(userinput.length - 2) == 'l' && userinput.charAt(userinput.length - 1) == 'e') {
+				i = kalestiavoc.length - 1;
+				do {
+					if (kalestiavoc[i][0] == userinput.slice(0, userinput.length - 3) && kalestiavoc[i][2] == 2) {
+						translated = true;
+						differentform = 2;
+						var transmain = i
+					}
+					i--;
+				} while (i > -1);
+			}
+			if (translated == true) {
 				if (differentform == 1) {
 					var newi = 0;
 					do {
@@ -258,6 +268,17 @@ function starttrans() {
 						result3 = '<strong>Literal translations for past tense are not supported yet'
 					}
 					document.getElementById("resultdiv").innerHTML = '<p><strong>' + userinput + '</strong> is a conjugated form of <strong>' + kalestiavoc[transmain][0] + '</strong>, meaning <strong>' + result1 + '</strong>.</p><p>' + result2 + '</strong>.</p><p>' + result3 + '</strong>.</p>';
+				} else if (differentform == 2) {
+					var newi = 0;
+					do {
+						if (newi == 0) {
+							var result1 = englishvoc[kalestiavoc[transmain][1][0]][0];
+						} else {
+							result1 = result1 + ', ' + englishvoc[kalestiavoc[transmain][1][newi]][0];
+						}
+						newi++;
+					} while (newi < kalestiavoc[transmain][1].length);
+					document.getElementById("resultdiv").innerHTML = '<p><strong>' + userinput + '</strong> is the adverb form of <strong>' + kalestiavoc[transmain][0] + '</strong>, meaning <strong>' + result1 + '</strong>.</p><p><strong>Literal translations for adverb forms of adjectives are not supported yet</strong>.</p>'
 				}
 			} else {
 				document.getElementById("resultdiv").innerHTML = "<p>There is no English translation matching your input. Please ensure that you typed your word correctly.</p><p>Note: The translator does not support sentences yet."
