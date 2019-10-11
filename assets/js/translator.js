@@ -43,6 +43,64 @@ function tryifempty() {
 }
 
 function starttrans() {
+	function getresult4(x) {
+		var result4 = '';
+		if (x == 'be' && tense == 1) {
+			if (plural == false) {
+				if (person == 0) {
+					x = 'am';
+				} else if (person == 1) {
+					x = 'are';
+				} else if (person == 2) {
+					x = 'i'
+				}
+			} else {
+				x = 'are';
+			}
+		}
+		if (plural == false) {
+			if (person == 0) {
+				result4 = result4 + 'I ';
+			} else if (person == 1) {
+				result4 = result4 + 'you ';
+			} else if (person == 2) {
+				result4 = result4 + 'he/she/it '
+			}
+		} else {
+			if (person == 0) {
+				result4 = result4 + 'we ';
+			} else if (person == 1) {
+				result4 = result4 + 'you ';
+			} else if (person == 2) {
+				result4 = result4 + 'they '
+			}
+		}
+		if (tense == 1) {
+			result4 = result4 + x;
+		} else if (tense == 2) {
+			result4 = result4 + 'will ' + x;
+		}
+		if (plural == false && person == 2 && tense == 1) {
+			if (x == 'go' || x == 'do') {
+				result4 = result4 + 'es';
+			} else {
+				result4 = result4 + 's';
+			}
+		}
+		return(result4);
+	}
+	function getformtrans() {
+		newi = 0;
+		do {
+			if (newi == 0) {
+				result1 = '<a onClick=\'revtransfun("' + englishvoc[kalestiavoc[transmain][1][0]][0] + '")\'>' + englishvoc[kalestiavoc[transmain][1][0]][0] + '</a>';
+			} else {
+				result1 = result1 + ', <a onClick=\'revtransfun("' + englishvoc[kalestiavoc[transmain][1][newi]][0] + '")\'>' + englishvoc[kalestiavoc[transmain][1][newi]][0] + '</a>';
+			}
+			newi++;
+		} while (newi < kalestiavoc[transmain][1].length);
+		return(result1);
+	}
 	var userinput = document.getElementById("wordinput").value;
 	if (userinput.charAt(userinput.length - 1) == ' ') {
 		do {
@@ -251,33 +309,17 @@ function starttrans() {
 						result2 = result2 + 'Singular Active'
 					}
 					if (kalestiavoc[transmain][1].length == 1) {
-						var result3 = 'A possible literal translation to English would be <strong>' + getresult4(englishvoc[kalestiavoc[transmain][1][0]][0], plural, person, tense);
+						var result3 = 'A possible literal translation to English would be <strong>' + getresult4(englishvoc[kalestiavoc[transmain][1][0]][0]);
 					} else {
-						var newj = 0;
 						var result3 = 'Possible literal translations to English would be <strong>';
-						do {
-							if (newj == 0) {
-								result3 = result3 + getresult4(englishvoc[kalestiavoc[transmain][1][0]][0], plural, person, tense);
-							} else {
-								result3 = result3 + ', ' + getresult4(englishvoc[kalestiavoc[transmain][1][newj]][0], plural, person, tense);
-							}
-							newj++;
-						} while (newj < kalestiavoc[transmain][1].length);
+						var result1 = getformtrans();
 					}
 					if (tense == 0) {
 						result3 = '<strong>Literal translations for past tense are not supported yet'
 					}
 					document.getElementById("resultdiv").innerHTML = '<p><strong>' + userinput + '</strong> is a conjugated form of <strong><a onClick=\'retransfun("' + kalestiavoc[transmain][0] + '")\'>' + kalestiavoc[transmain][0] + '</a></strong>, meaning <strong>' + result1 + '</strong>.</p><p>' + result2 + '</strong>.</p><p>' + result3 + '</strong>.</p>';
 				} else if (differentform == 2) {
-					var newi = 0;
-					do {
-						if (newi == 0) {
-							var result1 = '<a onClick=\'revtransfun("' + englishvoc[kalestiavoc[transmain][1][0]][0] + '")\'>' + englishvoc[kalestiavoc[transmain][1][0]][0] + '</a>';
-						} else {
-							result1 = result1 + ', <a onClick=\'revtransfun("' + englishvoc[kalestiavoc[transmain][1][newi]][0] + '")\'>' + englishvoc[kalestiavoc[transmain][1][newi]][0] + '</a>';
-						}
-						newi++;
-					} while (newi < kalestiavoc[transmain][1].length);
+					var result1 = getformtrans();
 					document.getElementById("resultdiv").innerHTML = '<p><strong>' + userinput + '</strong> is the adverb form of <strong><a onClick=\'retransfun("' + kalestiavoc[transmain][0] + '")\'>' + kalestiavoc[transmain][0] + '</a></strong>, meaning <strong>' + result1 + '</strong>.</p><p><strong>Literal translations for adverb forms of adjectives are not supported yet</strong>.</p>'
 				}
 			} else {
@@ -287,52 +329,6 @@ function starttrans() {
 	}
 	translated = false;
 	differentform  = 0;
-}
-function getresult4(x, plural, person, tense) {
-	var result4 = '';
-	if (x == 'be' && tense == 1) {
-		if (plural == false) {
-			if (person == 0) {
-				x = 'am';
-			} else if (person == 1) {
-				x = 'are';
-			} else if (person == 2) {
-				x = 'i'
-			}
-		} else {
-			x = 'are';
-		}
-	}
-	if (plural == false) {
-		if (person == 0) {
-			result4 = result4 + 'I ';
-		} else if (person == 1) {
-			result4 = result4 + 'you ';
-		} else if (person == 2) {
-			result4 = result4 + 'he/she/it '
-		}
-	} else {
-		if (person == 0) {
-			result4 = result4 + 'we ';
-		} else if (person == 1) {
-			result4 = result4 + 'you ';
-		} else if (person == 2) {
-			result4 = result4 + 'they '
-		}
-	}
-	if (tense == 1) {
-		result4 = result4 + x;
-	} else if (tense == 2) {
-		result4 = result4 + 'will ' + x;
-	}
-	if (plural == false && person == 2 && tense == 1) {
-		if (x == 'go' || x == 'do') {
-			result4 = result4 + 'es';
-		} else {
-			result4 = result4 + 's';
-		}
-	}
-	return(result4);
 }
 function retransfun(revsubmit) {
 	document.getElementById("wordinput").value = revsubmit;
