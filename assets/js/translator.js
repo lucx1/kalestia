@@ -330,6 +330,8 @@ function getresult4(x, plural, person, tense) {
 				result4 = result4 + 'es';
 			} else if (x == 'have') {
 				result4 = 'he/she/it has'
+			} else if (x == 'have to') {
+				result4 = 'he/she/it has to'
 			} else {
 				result4 = result4 + 's';
 			}
