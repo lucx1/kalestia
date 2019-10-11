@@ -289,50 +289,52 @@ function starttrans() {
 	differentform  = 0;
 }
 function getresult4(x, plural, person, tense) {
-	var result4 = '';
-	if (x == 'be' && tense == 1) {
+		var result4 = '';
+		if (x == 'be' && tense == 1 || x.includes('be ') && tense == 1) {
+			if (plural == false) {
+				if (person == 0) {
+					x = 'am' + x.slice(2, x.length);
+				} else if (person == 1) {
+					x = 'are' + x.slice(3, x.length);
+				} else if (person == 2) {
+					x = 'is' + x.slice(2, x.length);
+				}
+			} else {
+				x = 'are' + x.slice(3, x.length);
+			}
+		}
 		if (plural == false) {
 			if (person == 0) {
-				x = 'am';
+				result4 = result4 + 'I ';
 			} else if (person == 1) {
-				x = 'are';
+				result4 = result4 + 'you ';
 			} else if (person == 2) {
-				x = 'i'
+				result4 = result4 + 'he/she/it '
 			}
 		} else {
-			x = 'are';
+			if (person == 0) {
+				result4 = result4 + 'we ';
+			} else if (person == 1) {
+				result4 = result4 + 'you ';
+			} else if (person == 2) {
+				result4 = result4 + 'they '
+			}
 		}
-	}
-	if (plural == false) {
-		if (person == 0) {
-			result4 = result4 + 'I ';
-		} else if (person == 1) {
-			result4 = result4 + 'you ';
-		} else if (person == 2) {
-			result4 = result4 + 'he/she/it '
+		if (tense == 1) {
+			result4 = result4 + x;
+		} else if (tense == 2) {
+			result4 = result4 + 'will ' + x;
 		}
-	} else {
-		if (person == 0) {
-			result4 = result4 + 'we ';
-		} else if (person == 1) {
-			result4 = result4 + 'you ';
-		} else if (person == 2) {
-			result4 = result4 + 'they '
+		if (plural == false && person == 2 && tense == 1 && x != 'is' && x.includes('is ') == false && x != 'may' && x != 'must' && x != 'can' && x != 'shall' && x != 'should' && x != 'could' && x != 'might' && x != 'will' && x != 'would') {
+			if (x == 'go' || x == 'do') {
+				result4 = result4 + 'es';
+			} else if (x == 'have') {
+				result4 = 'he/she/it has'
+			} else {
+				result4 = result4 + 's';
+			}
 		}
-	}
-	if (tense == 1) {
-		result4 = result4 + x;
-	} else if (tense == 2) {
-		result4 = result4 + 'will ' + x;
-	}
-	if (plural == false && person == 2 && tense == 1) {
-		if (x == 'go' || x == 'do') {
-			result4 = result4 + 'es';
-		} else {
-			result4 = result4 + 's';
-		}
-	}
-	return(result4);
+		return(result4);
 }
 function retransfun(revsubmit) {
 	document.getElementById("wordinput").value = revsubmit;
