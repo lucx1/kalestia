@@ -15,9 +15,9 @@
 <meta name="theme-color" content="#6c1175">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="../assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="../../assets/css/main.css" />
-		<title>Kalestia - Translator</title>
+		<!--[if lte IE 8]><script src="../../assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="../../../assets/css/main.css" />
+		<title>Kalestia - More</title>
 	</head>
 	<body>
 
@@ -27,33 +27,25 @@
 				<!-- Header -->
 					<header id="header">
 						<p style="margin-bottom: 32px;">
-							<span class="logo" onClick="window.location = '..'" style="margin: 8px;"><img src="../../images/logo.png" width="96px" height="96px" style="border-radius: 50%;" alt="" /></span>
+							<span class="logo" onClick="window.location = '..'" style="margin: 8px;"><img src="../../../images/logo.png" width="96px" height="96px" style="border-radius: 50%;" alt="" /></span>
 							<ul class="actions">
-								<li><a href="../vocabulary" class="button">Vocabulary</a></li>
-								<li><a href="../grammar" class="button">Grammar</a></li>
-								<li><a href="../translator" class="button">Translator</a></li>
-								<li><a href="../more" class="button">More</a></li>
-								<li><a onClick="unfinished()" class="button special">Get Started</a></li>
+								<li><a href="../../more" class="button">Back</a></li>
 							</ul>
 						</p>
-						<h1>Translator</h1>
-						<p>On this page you can translate words from English to Kalestia or vise versa.</p>
+						<h1>Language Generator</h1>
+						<p>An almost infinite generator of new languages...</p>
 					</header>
 
 				<!-- Main -->
 					<div id="main">
 
 						<!-- Introduction -->
-							<section id="content" class="main">
-								<div id="inputdiv">
-									<p><text id="transdirh"></text> <input type="button" value="Switch" onClick="switchdir()" class="button special"></p>
-									<p>
-										<input type="text" id="wordinput" placeholder="Type here...">
-									</p>
-								</div>
-								<div id="resultdiv">
-								</div>
-							</section>
+							<section class="main">
+								<h1>In Work....</h1>
+								<p>
+									Early version will show up soon. Stay tuned!
+								</p>
+								</p></section>
 
 					</div>
 
@@ -84,15 +76,23 @@
 					</footer>
 
 			</div>
-		<script src="../../assets/js/vocabulary.js"></script>
-		<script src="../../assets/js/translator.js"></script>
-		<script src="../../assets/js/jquery.min.js"></script>
-		<script src="../../assets/js/jquery.scrollex.min.js"></script>
-		<script src="../../assets/js/jquery.scrolly.min.js"></script>
-		<script src="../../assets/js/skel.min.js"></script>
-		<script src="../../assets/js/util.js"></script>
-		<script src="../../assets/js/main.js"></script>
+		<script src="../../../assets/js/jquery.min.js"></script>
+		<script src="../../../assets/js/jquery.scrollex.min.js"></script>
+		<script src="../../../assets/js/jquery.scrolly.min.js"></script>
+		<script src="../../../assets/js/skel.min.js"></script>
+		<script src="../../../assets/js/util.js"></script>
+		<script src="../../../assets/js/main.js"></script>
 		<script>
+			var wa_kal_var = false;
+			function wa_kal_fun() {
+				if (wa_kal_var) {
+					document.getElementById('wa_kal').setAttribute("width", "25%");
+					wa_kal_var = false;
+				} else {
+					document.getElementById('wa_kal').setAttribute("width", "75%");
+					wa_kal_var = true;
+				}
+			}
 			function unfinished() {
 				alert("Since Kalestia is still in early progress, this part of the website is not ready yet. We are working hard on finalizing the website and promise you that something really big is happening here! Stay tuned!")
 			}
