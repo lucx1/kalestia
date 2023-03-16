@@ -16,7 +16,11 @@ VALUES OF WORD TYPES:
 // ----- PREPARING TRANSLATOR -----
 var transdir = 0;
 var translated = false;
+
 var differentform = 0;
+// 1 = Conjugated Verb
+// 2 = Adverb of an Adjective
+
 switchdir();
 function switchdir() {
 	if (transdir == 0) {
@@ -187,18 +191,20 @@ function starttrans() {
 				}
 				i = kalestiavoc.length - 1;
 				do {
-					if (kalestiavoc[i][0] == userinput.slice(0, userinput.length - nextvar) && kalestiavoc[i][2] == 1) {
-						translated = true;
-						var tense = 1
-						differentform = 1;
-						var transmain = i
-					} else if (kalestiavoc[i][0] == userinput.slice(0, userinput.length - nextvar - 1) + 's' && kalestiavoc[i][2] == 1) {
-						if (userinput.charAt(userinput.length - nextvar - 1) == 'k') {
+					if (userinput.charAt(userinput.length - nextvar - 2) != userinput.charAt(userinput.length - nextvar - 1)) {
+						if (kalestiavoc[i][0] == userinput.slice(0, userinput.length - nextvar) && kalestiavoc[i][2] == 1) {
+							translated = true;
+							var tense = 1
+							differentform = 1;
+							var transmain = i
+						} else if ((kalestiavoc[i][0] == userinput.slice(0, userinput.length - nextvar - 1) + 's' || kalestiavoc[i][0] == userinput.slice(0, userinput.length - nextvar - 1) + 'ks' ) && kalestiavoc[i][2] == 1 && userinput.charAt(userinput.length - nextvar - 1) == 'k') {
+							// if (current vocab in loop is equal to userinput minus suffix + s or ks) && current vocab in the loop is a verb && userinput has k in the correct place of the suffix
 							translated = true;
 							var tense = 2;
 							differentform = 1;
 							var transmain = i;
-						} else if (userinput.charAt(userinput.length - nextvar - 1) == 't') {
+						} else if ((kalestiavoc[i][0] == userinput.slice(0, userinput.length - nextvar - 1) + 's' || kalestiavoc[i][0] == userinput.slice(0, userinput.length - nextvar - 1) + 'ts' ) && kalestiavoc[i][2] == 1 && userinput.charAt(userinput.length - nextvar - 1) == 't') {
+							// if (current vocab in loop is equal to userinput minus suffix + s or ts) && current vocab in the loop is a verb && userinput has t in the correct place of the suffix
 							translated = true;
 							var tense = 0;
 							differentform = 1
